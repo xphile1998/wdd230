@@ -44,6 +44,10 @@ ul {
     font-family: Consolas, Terminal, sans-serif;
 }
 
+li {
+    margin-left: 1rem;
+}
+
 main h2 {
     font-family: 'Arial Narrow', sans-serif;
     font-size: x-large;
