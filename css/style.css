@@ -45,3 +45,16 @@ main h2 {
     text-shadow: 2px black;
     align-self: center;
 }
+
+footer {
+    margin: 1rem auto;
+    border: 1px solid rgb(0, 0, 0);
+    padding: .5rem;
+    background-color: rgb(143, 5, 184);
+    text-align: center;
+    justify-items: center;
+    filter: drop-shadow(10px 10px 10px black);
+    border-radius: 10px;
+    color: antiquewhite;
+    font-family: Arial, sans-serif;
+}
