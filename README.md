@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# WDD 230 Project Files
+My repository for keeping and presenting my frontend development projects and assignments for my WDD230 class.
 
-You can use the [editor on GitHub](https://github.com/xphile1998/wdd230/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Getting Started
+Not Applicable
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Dependencies
+Requires:
+* HTML
+* CSS
+* JavaScript
 
-### Markdown
+### Installing
+Not Applicable
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Executing program
+Just run in a web browser like Chrome or Edge.
 
-```markdown
-Syntax highlighted code block
+## Help
+Not Applicable
 
-# Header 1
-## Header 2
-### Header 3
+## Authors
+Eron Whitefield
+whi21055#byui.edu
 
-- Bulleted
-- List
+## Version History
+0.1 Week 1 work
 
-1. Numbered
-2. List
+## License
+Not Applicable
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xphile1998/wdd230/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Acknowledgments
+None
