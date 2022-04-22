@@ -27,7 +27,7 @@ header {
 }
 
 header img {
-    width: 100%;
+    width: 100px;
     filter: drop-shadow(5px 5px 5px black);
     border-radius: 5px;
 }
