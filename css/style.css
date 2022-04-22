@@ -17,13 +17,31 @@ header {
     margin: 1rem auto;
     border: 1px solid rgb(0, 0, 0);
     padding: .5rem;
-    background-color: rgb(66, 0, 87);
+    background-color: rgb(143, 5, 184);
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+    justify-self: center;
+    filter: drop-shadow(10px 10px 10px black);
+    border-radius: 10px;
 }
 
 header img {
     width: 100%;
+    filter: drop-shadow(5px 5px 5px black);
+    border-radius: 5px;
+}
 
+header h1 {
+    font-family: Arial,  sans-serif;
+    font-size: xxx-large;
+    justify-self: center;
+    color:antiquewhite;
+}
+
+main h2 {
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: xx-large;
+    text-shadow: 2px black;
+    align-self: center;
 }
