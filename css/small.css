@@ -82,7 +82,7 @@ footer {
     padding-top: 5px;
 }
 
-#sitePlan a:link, a:visited {
+#sitePlan a:link, #sitePlan a:visited {
     color: lightblue;
     font-size: small;
 }
