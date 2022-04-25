@@ -1,9 +1,9 @@
 @media only screen and (min-width: 32.5em) {
     header {
         margin: 1rem auto;
-        border: 1px solid rgb(0, 0, 0);
+        border: 1px solid #000000;
         padding: .5rem;
-        background-color: rgb(143, 5, 184);
+        background-color: #8f05b8;
         display: grid;
         grid-template-columns: 200px 1fr;
         align-items: center;
