@@ -81,3 +81,8 @@ footer {
     /* font-size: smaller; */
     padding-top: 5px;
 }
+
+#sitePlan a:link, a:visited {
+    color: lightblue;
+    font-size: small;
+}
