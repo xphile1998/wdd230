@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+header, main, footer {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 1rem auto;
+    border: 1px solid rgb(0, 0, 0);
+    padding: .5rem;
+    background-color: rgb(241, 137, 0);
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    justify-self: center;
+    filter: drop-shadow(5px 5px 5px black);
+    border-radius: 5px;
+}
+
+header img {
+    width: 75%; 
+}
+
+header h1 {
+    font-family: Arial,  sans-serif;
+    font-size: 1.5rem;
+    justify-self: center;
+    color:rgb(0, 0, 0);
+}
+
+ul {
+    padding: 15px;
+    font-family: Consolas, Terminal, sans-serif;
+    font-size: .75rem;
+}
+
+li {
+    margin-left: 1rem;
+}
+
+main h2 {
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 1rem;
+    text-shadow: 0px 0px 5px rgb(63, 63, 63);
+    align-self: center;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    margin: 1rem auto;
+    border: 1px solid rgb(0, 0, 0);
+    padding: .5rem;
+    background-color: rgb(241, 137, 0);
+    text-align: center;
+    justify-items: center;
+    filter: drop-shadow(10px 10px 10px black);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: .75rem;
+}
+
+#footnote {
+    border-top: 1px solid black;
+    font-style: italic;
+    font-family: Consolas, Terminal, sans-serif;
+    font-size: 0.5rem;
+}
+
+#lastLine {
+    color: yellow;
+    /* font-size: smaller; */
+    padding-top: 5px;
+}
