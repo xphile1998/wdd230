@@ -17,31 +17,30 @@ header {
     margin: 1rem auto;
     border: 1px solid rgb(0, 0, 0);
     padding: .5rem;
-    background-color: rgb(143, 5, 184);
+    background-color: rgb(241, 137, 0);
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 150px 1fr;
     align-items: center;
     justify-self: center;
-    filter: drop-shadow(10px 10px 10px black);
-    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px black);
+    border-radius: 5px;
 }
 
 header img {
-    width: 100%;
-    filter: drop-shadow(5px 5px 5px black);
-    border-radius: 5px;
+    width: 75%; 
 }
 
 header h1 {
     font-family: Arial,  sans-serif;
     font-size: 1.5rem;
     justify-self: center;
-    color:antiquewhite;
+    color:rgb(0, 0, 0);
 }
 
 ul {
     padding: 15px;
     font-family: Consolas, Terminal, sans-serif;
+    font-size: .75rem;
 }
 
 li {
@@ -50,7 +49,7 @@ li {
 
 main h2 {
     font-family: 'Arial Narrow', sans-serif;
-    font-size: x-large;
+    font-size: 1rem;
     text-shadow: 0px 0px 5px rgb(63, 63, 63);
     align-self: center;
     border-bottom: 1px solid black;
@@ -60,19 +59,21 @@ footer {
     margin: 1rem auto;
     border: 1px solid rgb(0, 0, 0);
     padding: .5rem;
-    background-color: rgb(143, 5, 184);
+    background-color: rgb(241, 137, 0);
     text-align: center;
     justify-items: center;
     filter: drop-shadow(10px 10px 10px black);
     border-radius: 10px;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
+    font-size: .75rem;
 }
 
 #footnote {
     border-top: 1px solid black;
     font-style: italic;
     font-family: Consolas, Terminal, sans-serif;
+    font-size: 0.5rem;
 }
 
 #lastLine {
