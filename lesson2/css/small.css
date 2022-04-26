@@ -27,26 +27,27 @@ Fonts are separated by a | */
     --nav-hover-background-color: #4ea5d9;
 }
 
+/* ================================================================================= */
+/* | Look around below...but DON'T CHANGE ANYTHING WITOUT KNOW WHAT YOU ARE DOING! |*/
+/* ================================================================================= */
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
 html {
     background-color: var(--accent3-color);
 }
 
 body {
-    max-width: 900px;
-    margin: 0 auto;
     background-color: white;
     padding: 1em;
     font-size: 16px;
 }
 
 main {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-}
+    column-gap: 5px;
+}    
 
 img {
     max-width: 100%;
@@ -151,13 +152,15 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+/*
 .sitemap {
     display: grid;
     justify-content: center;
 
     grid-template-columns: repeat(6, 15%);
     grid-template-rows: 3em 1.5em 1.5em 3em;
-    grid-template-areas: ". . home home . ."
+    grid-template-areas: 
+        ". . home home . ."
         ". . . top . ."
         ". left left right right ."
         "page2 page2 . . page3 page3";
@@ -184,6 +187,7 @@ nav a:hover {
     background-color: #999;
     line-height: 3em;
 }
+*/
 
 .top {
     grid-area: top;
@@ -203,7 +207,6 @@ nav a:hover {
 }
 
 #HicksLaw, #FittsLaw, #RuleOfThirds {
-    display: grid;
     border: 2px solid var(--accent3-color);
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -219,15 +222,18 @@ nav a:hover {
     border-bottom: 2px solid var(--accent3-color);
     background-color: #999;
     color: #050505;
+    height: 1.5em;
     margin: 0;
 }
 
 #HicksLaw h4, #FittsLaw h4, #RuleOfThirds h4 {
     margin-top: 0;
+    height: 1.5em;
 }    
 
 .description {
     text-align: left;
+    height: 1.5em;
 }
 
 .weblink {
