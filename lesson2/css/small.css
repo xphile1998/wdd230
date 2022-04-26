@@ -193,8 +193,10 @@ nav a:hover {
 
 #HicksLaw, #FittsLaw, #RuleOfThirds {
     display: grid;
-    border: 1px solid var(--accent3-color);
-    border-radius: 5px;
+    border: 2px solid var(--accent3-color);
+    /* border-radius: 5px;*/
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     background-color: #ececec;
     text-indent: .5em;
     margin-bottom: 1em;
@@ -204,7 +206,7 @@ nav a:hover {
 }
 
 #HicksLaw h3, #FittsLaw h3, #RuleOfThirds h3 {
-    border-bottom: 1px solid var(--accent3-color);
+    border-bottom: 2px solid var(--accent3-color);
     background-color: #999;
     color: #050505;
     margin: 0;
