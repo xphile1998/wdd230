@@ -32,15 +32,26 @@ Fonts are separated by a | */
 html {
     background-color: var(--accent3-color);
 }
+
 body {
     max-width: 900px;
     margin: 0 auto;
     background-color: white;
     padding: 1em;
+    font-size: 16px;
 }
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 img {
     max-width: 100%;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
@@ -194,7 +205,6 @@ nav a:hover {
 #HicksLaw, #FittsLaw, #RuleOfThirds {
     display: grid;
     border: 2px solid var(--accent3-color);
-    /* border-radius: 5px;*/
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     background-color: #ececec;
