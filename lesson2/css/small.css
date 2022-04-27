@@ -36,13 +36,14 @@ html {
 }
 
 body {
+    max-width: 900px;
     background-color: white;
     padding: 1em;
     font-size: 16px;
 }
 
 main {
-    max-width: 900px;
+/*    max-width: 900px; */
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
