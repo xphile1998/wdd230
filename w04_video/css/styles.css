@@ -1,0 +1,60 @@
+body {
+    width: 600px;
+    background-color: black;
+}
+
+main {
+    font-style:italic;
+    background-color: bisque;
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-style: normal;
+}
+
+/*
+#division {
+    background-color: crimson;
+    width: 450px;
+}
+*/
+/*
+.formatting1 {
+    background-color: blue;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/
+/*
+.formatting2 {
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+*/
+/*
+#special {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+}
+*/
+/*
+#ending {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    border: 1px solid blue
+}
+*/
+
+.instructions {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .5em;
+    font-style: normal;
+    font-weight: bold;
+    background-color: yellow;
+    width: 150px;
+}
