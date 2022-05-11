@@ -1,10 +1,10 @@
 /* 35rem is also 560px when the base font is 16px */
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 40rem) {
     nav button {
         display: none;
     }
 
-    nav ul {
+    nav ul#primaryNav {
         display: flex;
         justify-content: flex-start;
         margin-left: 2vw;
@@ -15,4 +15,4 @@
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
     }
-}
+} /* end medium */
