@@ -260,3 +260,7 @@ Fonts are separated by a |
     color: var(--paragraph-color-on-white);
     font-weight: bolder;
   }
+
+  #hamburgerBtn {
+    font-size: 36px;
+  }
