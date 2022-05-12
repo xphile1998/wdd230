@@ -59,6 +59,10 @@ Fonts are separated by a |
     border-radius: 10px;
   }
 
+  header > h4 {
+    color: var(--accent1-color);
+  }
+
   header > h1, header > h2 {
     color: var(--headline-color-on-color);
   }
@@ -217,32 +221,39 @@ Fonts are separated by a |
   }
   
   #h1Color {
-      background-color: #7a5c58;
-      color: #ffffff;
+    background-color: #7a5c58;
+    color: #ffffff;
   }
 
   #pColor {
-      background-color: #050505;
-      color: #ffffff;
+    background-color: #050505;
+    color: #ffffff;
   }
 
   .typeTable {
-      border: 1px solid; 
-      margin-left: 50px;      
+    border: 1px solid; 
+    margin-left: 50px;      
   }
 
   td:first-child, th:first-child {
-      border-right: 1px solid;
+    border-right: 1px solid;
   }
 
   td:nth-child(2), th:nth-child(2) {
-      border-right: 1px solid;
+    border-right: 1px solid;
   }
 
   th {
-      background-color: #999;
+    background-color: #999;
   }
 
   ul, ol {
-      font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font);
+  }
+
+  .date, aside {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem;
+    background-color: #eee;
   }
