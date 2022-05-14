@@ -7,15 +7,9 @@ document.getElementById('copyYear').textContent = year;
 document.getElementById('lastModified').textContent = document.lastModified;
 */
 
-// select the elements to manipulate (output to)
-const datefieldUK = document.querySelector(".date");
-const datefield = document.querySelector("aside"); // for european/family history format with day first.
+// display the date in UK style format: (day-of-the-week, day month year)
 
-// derive the current date using a date object
+const datefield = document.querySelector("#date");
 const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
-const fulldateUK = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(now);
-// long, medium, short options ... try them
-
+const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 datefield.innerHTML = `<em>${fulldate}</em>`;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;

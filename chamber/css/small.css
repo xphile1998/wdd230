@@ -264,3 +264,12 @@ Fonts are separated by a |
   #hamburgerBtn {
     font-size: 36px;
   }
+
+  #date {
+    display: flex;
+    font-size: 1.5rem;
+    margin: 5px;
+    border: 2px solid #a98714;
+    background-color: #3f48cc;
+    justify-content: center;  
+  }
