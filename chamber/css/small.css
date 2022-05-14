@@ -267,6 +267,7 @@ Fonts are separated by a |
 
   #date {
     display: flex;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
     margin: 5px;
     border: 2px solid #a98714;

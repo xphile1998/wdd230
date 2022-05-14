@@ -2,4 +2,8 @@
 	nav a {
 		font-size: 1.3rem;
 	}
+
+	#hamburgerBtn {
+		display: none;
+	}
 }
