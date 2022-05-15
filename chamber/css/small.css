@@ -93,7 +93,7 @@ nav ul li a {
     padding: .8rem 2vw;
     text-decoration: none;
     color: var(--nav-link-color);
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 nav ul {
@@ -180,4 +180,5 @@ footer {
 
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
+    color: red;
 }
