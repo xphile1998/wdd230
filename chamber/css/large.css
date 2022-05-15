@@ -3,8 +3,23 @@
         padding: .5rem 1rem;
     }
 
+	header {
+		font-size: 1.25rem;
+		text-align: center;
+	}
+
+	.subtitle {
+		font-size: 1.25rem;
+	}
+
 	#head_logo {
 		width: 100px;
+		height: auto;
+	}
+
+	#foot_logo {
+		width: 50px;
+		height: 50px;
 	}
 
 }

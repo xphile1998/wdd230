@@ -1,4 +1,8 @@
 @media (min-width: 37.5em) {
+	header {
+		font-size: 1rem;
+	}
+	
 	nav button {
         display: none;
     }
@@ -15,7 +19,17 @@
         border-right: 2px solid rgba(255, 255, 255, 0.3);
     }
 
+	.subtitle {
+		font-size: 1rem;
+	}
+
 	#head_logo {
 		width: 75px;
+		height: auto;
+	}
+
+	#foot_logo {
+		width: 37px;
+		height: auto;
 	}
 }

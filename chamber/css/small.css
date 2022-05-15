@@ -61,6 +61,7 @@ h1, p {
 header {
     background-color: var(--primary-color);
     font-family: var(--heading-font);
+    font-size: xx-small;
     padding: 10px;
     border-radius: 10px;
 }
@@ -125,6 +126,7 @@ footer {
     color: var(--headline-color-on-color);
     font-size: .8rem;
     border-radius: 10px;
+    text-align: center;
 }
 
 /* 
@@ -134,14 +136,15 @@ footer {
 */
 .headings {
     margin: auto;
+    text-align: center;
 }
 
 .subtitle {
     font-style: italic;
+    font-size: smaller;
     letter-spacing: 1pt;
-    color: var(--accent3-color);
-    font-size: .9rem;
-    margin-left: 20px;
+    color: var(--accent1-color);
+    margin: auto;
 }
 
 .first_line_head {
@@ -153,7 +156,8 @@ footer {
 }
 
 .social {
-    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
 }
 
 .social img{
@@ -168,13 +172,40 @@ footer {
     text-align: center;
 }
 
+.first_line_foot {
+    padding-top: 10px;
+    display: block;
+}
+
+.author_info {
+    border-top: 1.5px solid var(--accent1-color);
+    margin-top: 5px;
+    padding: 5px;
+    font-family: var(--paragraph-font);
+    line-height: 1.25rem;
+}
+
+.foot_paragraph {
+    font-size: medium;
+}
+
+.contact_info {
+    padding: 5px;
+    line-height: 1.75rem;
+}
+
 /* 
 ||======================================================================||
 || ID Formats                                                           ||
 ||======================================================================||
 */
 #head_logo {
-    width: 50px;
+    width: 100%;
+    height: auto;
+}
+
+#foot_logo {
+    width: 25px;
     height: auto;
 }
 
@@ -193,4 +224,12 @@ footer {
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
     color: red;
+}
+
+#address {
+    line-height: 1rem;
+}
+
+#author {
+    font-weight: bold;
 }
