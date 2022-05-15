@@ -1,0 +1,37 @@
+/* ========================================================================================== */
+
+/* 
+|| Site Plan Variables ======================================================================
+*/
+:root {
+    /* 
+    || Site Color Palate
+    */
+    --primary-color: #7a5c58;
+    --secondary-color: #8d80ad;
+    --accent1-color: #99b2dd;
+    --accent2-color: #9dfff9;
+    --accent3-color: #64f58d;
+  
+    /* 
+    || Site Fonts
+    */
+    --heading-font: "Secular One", serif;
+    --paragraph-font: "Open Sans", sans-serif;
+  
+    /* 
+    || Basic Color Combos
+    */
+    --headline-color-on-white: #7a5c58;  /* headlines on a white background */ 
+    --headline-color-on-color: #ffffff; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #050505; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
+    --text-background-color: #7a5c58;
+    --nav-link-color: #99b2dd;
+    --nav-background-color: #050505;
+    --nav-hover-link-color: #050505;
+    --nav-hover-background-color: #99b2dd;
+  }
+
+/* ========================================================================================== */
+
