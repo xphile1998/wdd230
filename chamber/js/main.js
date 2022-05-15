@@ -11,3 +11,5 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 const today = new Date();
 const year = today.getFullYear();
 document.getElementById('copyYear').textContent = year;
+
+// Hamburger Button Click Behavior
