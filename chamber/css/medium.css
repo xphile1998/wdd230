@@ -6,4 +6,10 @@
 	nav a {
 		font-size: 1.1rem;
 	}
+
+	.subtitle {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
 }

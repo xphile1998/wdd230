@@ -3,6 +3,11 @@
 		font-size: 1.3rem;
 	}
 
+	#head_logo {
+		width: 100px;
+		height: auto;
+	}
+
 	#hamburgerBtn {
 		display: none;
 	}

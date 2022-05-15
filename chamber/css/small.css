@@ -38,18 +38,57 @@
 || Basic Page Formats                                                   ||
 ||======================================================================||
 */
+html {
+    background-color: var(--primary-color);
+}
 
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+  }
+
+  header {
+    background-color: var(--primary-color);
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header img {
+    width: 48px;
+    height: auto;
+  }
+
+  nav.navigation {
+      display: flex;
+  }
 
 /* 
 ||======================================================================||
 || Class Formats                                                        ||
 ||======================================================================||
 */
+.headings {
+    display: flex;
+}
 
+.subtitle {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: var(--accent3-color);
+    font-size: .9rem;
+    margin-left: 20px;
+}
 
 /* 
 ||======================================================================||
 || ID Formats                                                           ||
 ||======================================================================||
 */
-
+#head_logo {
+    width: 100px;
+    height: auto;
+}
