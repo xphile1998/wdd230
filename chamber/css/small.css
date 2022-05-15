@@ -52,50 +52,22 @@ body {
     margin: 0 auto;
     background-color: white;
     padding: 1em;
-  }
+}
+
+h1, p {
+    margin: 0 2vw;
+}
 
 header {
     background-color: var(--primary-color);
     font-family: var(--heading-font);
     padding: 10px;
     border-radius: 10px;
-  }
+}
 
 header img {
     width: 48px;
     height: auto;
-}
-
-nav {
-    background-color: #eee;
-}
-
-nav ul {
-    display: block;
-    background-color: #050505;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-}
-
-nav ul li a {
-    display: block;
-    padding: .8rem 2vw;
-    text-decoration: none;
-    color: var(--nav-link-color);
-    border-top: 1px solid rgba(0,0,0,0.5);
-}
-
-nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
-    color: #fff;
-}
-
-nav ul li a:hover {
-    background-color: var(--nav-hover-background-color);
-    color: var(--nav-hover-link-color);
 }
 
 nav button {
@@ -103,7 +75,43 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: var(--nav-link-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: var(--nav-link-color);
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li.active a {
+    background-color: rgba(122, 122, 122, 0.5);
+    color: var(--accent3-color);
+}
+
+nav ul li a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
 }
 
 a {
@@ -141,6 +149,13 @@ footer {
     height: auto;
 }
 
+.datetracker {
+    background-color: var(--accent1-color);
+    margin: 5px 0 5px 0;
+    display: block;
+    text-align: center;
+}
+
 /* 
 ||======================================================================||
 || ID Formats                                                           ||
@@ -149,4 +164,20 @@ footer {
 #head_logo {
     width: 100px;
     height: auto;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
 }
