@@ -33,6 +33,9 @@
     --nav-hover-background-color: #99b2dd;
   }
 
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 /* 
 ||======================================================================||
 || Basic Page Formats                                                   ||
@@ -40,6 +43,8 @@
 */
 html {
     background-color: var(--primary-color);
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
 }
 
 body {
@@ -49,38 +54,91 @@ body {
     padding: 1em;
   }
 
-  header {
+header {
     background-color: var(--primary-color);
-    padding: 5px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: var(--heading-font);
+    padding: 10px;
+    border-radius: 10px;
   }
 
-  header img {
+header img {
     width: 48px;
     height: auto;
-  }
+}
 
-  nav.navigation {
-      display: flex;
-  }
+nav {
+    background-color: #eee;
+}
+
+nav ul {
+    display: block;
+    background-color: #050505;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: var(--nav-link-color);
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+nav button {
+    margin: .2rem .2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-color);
+    font-size: .8rem;
+    border-radius: 10px;
+}
 
 /* 
 ||======================================================================||
 || Class Formats                                                        ||
 ||======================================================================||
 */
-.headings {
-    display: flex;
-}
-
 .subtitle {
     font-style: italic;
     letter-spacing: 1pt;
     color: var(--accent3-color);
     font-size: .9rem;
     margin-left: 20px;
+}
+
+.head_name {
+    display: flex;
+}
+
+.social img{
+    width: 25px;
+    height: auto;
 }
 
 /* 
