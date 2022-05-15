@@ -132,6 +132,10 @@ footer {
 || Class Formats                                                        ||
 ||======================================================================||
 */
+.headings {
+    margin: auto;
+}
+
 .subtitle {
     font-style: italic;
     letter-spacing: 1pt;
@@ -140,8 +144,16 @@ footer {
     margin-left: 20px;
 }
 
-.head_name {
+.first_line_head {
     display: flex;
+}
+
+.logo_name {
+    display: flex;
+}
+
+.social {
+    margin: auto;
 }
 
 .social img{
@@ -162,7 +174,7 @@ footer {
 ||======================================================================||
 */
 #head_logo {
-    width: 100px;
+    width: 50px;
     height: auto;
 }
 

@@ -3,4 +3,8 @@
         padding: .5rem 1rem;
     }
 
+	#head_logo {
+		width: 100px;
+	}
+
 }
