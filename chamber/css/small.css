@@ -185,10 +185,6 @@ footer {
     line-height: 1.25rem;
 }
 
-.foot_paragraph {
-    font-size: medium;
-}
-
 .contact_info {
     padding: 5px;
     line-height: 1.75rem;
@@ -204,8 +200,8 @@ footer {
     height: auto;
 }
 
-#foot_logo {
-    width: 25px;
+#ft_logo {
+    width: 50px;
     height: auto;
 }
 
@@ -232,4 +228,8 @@ footer {
 
 #author {
     font-weight: bold;
+}
+
+#foot_paragraph {
+    font-size: medium;
 }

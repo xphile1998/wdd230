@@ -1,4 +1,9 @@
 @media (min-width: 37.5em) {
+	/* 
+	||======================================================================||
+	|| Basic Page Formats                                                   ||
+	||======================================================================||
+	*/	
 	header {
 		font-size: 1rem;
 	}
@@ -19,17 +24,58 @@
         border-right: 2px solid rgba(255, 255, 255, 0.3);
     }
 
+	
+
+	/* 
+	||======================================================================||
+	|| Class Formats                                                        ||
+	||======================================================================||
+	*/
 	.subtitle {
 		font-size: 1rem;
 	}
 
+	.container {
+		display: grid;
+		grid-template-columns: 80px 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 2px 2px;
+		padding: 10px;
+		grid-template-areas: 
+			"foot_logo name_address location_info"
+			"author_info author_info author_info";
+		align-items: center;
+		justify-content: space-evenly;
+	}
+
+	.name_address { 
+		grid-area: name_address; 
+	}
+
+	.author_info { 
+		grid-area: author_info; 
+	}
+
+	.foot_logo { 
+		grid-area: foot_logo; 
+	}
+
+	.location_info { 
+		grid-area: location_info; 
+	}
+
+	/* 
+	||======================================================================||
+	|| ID Formats                                                           ||
+	||======================================================================||
+	*/
 	#head_logo {
 		width: 75px;
 		height: auto;
 	}
 
-	#foot_logo {
-		width: 37px;
+	#ft_logo {
+		width: 75px;
 		height: auto;
 	}
 }
