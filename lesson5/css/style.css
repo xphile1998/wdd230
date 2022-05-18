@@ -1,8 +1,14 @@
+/*
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Press+Start+2P&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	height: 100vh;
 	display: flex;
@@ -27,6 +33,14 @@ main {
 	width: 95%;
 }
 
+footer {
+	font-family: "Courier New", monospace;
+	font-weight: bolder;
+	padding: 10px 75px 10px 75px;
+	background-color: #0c8;
+}
+
+
 input,
 button {
 	padding: 0.35rem;
@@ -41,6 +55,7 @@ input {
 label {
 	font-size: 0.9rem;
 }
+
 .listcontainer {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	margin: 1rem;
