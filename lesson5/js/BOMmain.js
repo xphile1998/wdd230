@@ -1,3 +1,6 @@
+const today = new Date();
+const year = today.getFullYear();
+document.getElementById('copyYear').textContent = year;
 
 const input = document.querySelector('input');
 const button = document.querySelector('button');
