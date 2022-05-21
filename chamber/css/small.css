@@ -58,14 +58,13 @@ h1, p {
     margin: 0 2vw;
 }
 
-footer h1 {
-    font-size: .5rem;
+h2 {
+    font-size: 1rem;
 }
 
-footer h2 {
-    font-size: .5rem;
+h3 {
+    font-size: 1rem;
 }
-
 header {
     background-color: var(--primary-color);
     font-family: var(--heading-font);
