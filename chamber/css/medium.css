@@ -24,7 +24,6 @@
         border-right: 2px solid rgba(255, 255, 255, 0.3);
     }
 
-	
 
 	/* 
 	||======================================================================||
@@ -37,8 +36,8 @@
 
 	.container {
 		display: grid;
-		grid-template-columns: 80px 1fr 1fr;
-		grid-template-rows: 1fr 1fr;
+		grid-template-columns: .5fr 1fr .75fr;
+		grid-template-rows: 1fr .75fr;
 		gap: 2px 2px;
 		padding: 10px;
 		grid-template-areas: 
@@ -77,5 +76,9 @@
 	#ft_logo {
 		width: 75px;
 		height: auto;
+	}
+
+	#foot_paragraph {
+		font-size: 1.2rem;
 	}
 }

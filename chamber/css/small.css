@@ -231,7 +231,9 @@ footer {
 }
 
 #address {
+    font-size: .7rem;
     line-height: 1rem;
+    margin-bottom: 5px;
 }
 
 #author {
@@ -240,6 +242,7 @@ footer {
 
 #foot_paragraph {
     font-size: 1rem;
+    margin: 5px;
 }
 
 #location_map {
