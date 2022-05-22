@@ -71,6 +71,7 @@ header {
     font-size: xx-small;
     padding: 10px;
     border-radius: 10px;
+    background-image: url("../images/GreenValleyNorthBanner.jpg");
 }
 
 header img {
@@ -150,7 +151,7 @@ footer {
     font-style: italic;
     font-size: smaller;
     letter-spacing: 1pt;
-    color: var(--accent2-color);
+    color: blue;
     margin: auto;
 }
 
