@@ -209,9 +209,19 @@ footer {
     /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)); */
 }
 
-.location .city {
+.weather>h2 {
     font-size: 1.5rem;
+}
+
+.location .city {
+    font-size: 1.25rem;
     font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.location .coords {
+    font-size: .75rem;
+    font-style: italic;
     margin-bottom: 5px;
 }
 
@@ -223,7 +233,6 @@ footer {
     font-size: 3rem;
     font-weight: 900;
     margin: 10px 0;
-    /* text-shadow: 2px 4px rgba(0, 0, 0, 1.0); */
 }
 
 .current .temp span {
@@ -240,6 +249,39 @@ footer {
 .current .hi-low {
     font-size: 24px;
     font-weight: 500;
+}
+
+.join {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-areas:    
+        ". join_us ."
+        "join_h2 join_h2 join_h2"
+        "join_h2 join_h2 join_h2";
+    align-items: center;
+    align-content: center;
+}
+
+.join>h2 {
+    grid-area: join_h2;
+    
+}
+
+.join_us {
+    background-color: darkgreen;
+    font-family: var(--heading-font);
+    color: yellow;
+    justify-self: center;
+    border-radius: 10px;
+    grid-area: join_us;
+}
+
+.join>h2 {
+    font-weight: bolder;
+    font-family: var(--paragraph-font);
+    font-size: .8rem;
+    text-align: center;
 }
 
 /* 

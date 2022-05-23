@@ -56,12 +56,15 @@ function getResults (query) {
 
 function displayResults (weather) {
     console.log(weather);
-    let city = document.querySelector('.location .city');
-    city.innerText = `${weather.name}, ${weather.sys.country}`;
+    // let city = document.querySelector('.location .city');
+    // city.innerText = `${weather.name}, ${weather.sys.country}`;
+    
+    // let coords = document.querySelector('.location .coords');
+    // coords.innerText = `lat: ${weather.coord.lat} / lon: ${weather.coord.lon}`;
 
-    let now = new Date();
-    let date = document.querySelector('.location .date');
-    date.innerText = dateBuilder(now);
+    // let now = new Date();
+    // let date = document.querySelector('.location .date');
+    // date.innerText = dateBuilder(now);
 
     let temp = document.querySelector('.current .temp');
     temp.innerHTML = `${Math.round(weather.main.temp)}<span>°F</span>`;
@@ -72,7 +75,7 @@ function displayResults (weather) {
     let hilo = document.querySelector('.hi-low');
     hilo.innerText = `${Math.round(weather.main.temp_min)}°F / ${Math.round(weather.main.temp_max)}°F`;
 }
-
+/*
 function dateBuilder (d) {
     let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -82,6 +85,6 @@ function dateBuilder (d) {
     let month = months[d.getMonth()];
     let year = d.getFullYear();
 
-    /* console.log(`${day} ${date} ${month} ${year}`); */
     return `${day} ${date} ${month} ${year}`;
 }
+*/
