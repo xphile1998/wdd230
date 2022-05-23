@@ -60,13 +60,13 @@
 		display: grid; 
   		grid-template-columns: 1fr; 
   		grid-template-rows: max-content max-content max-content; 
-  		gap: 2px 0px; 
+  		gap: 5px 0px; 
   		grid-template-areas: 
     		"spotlight1"
     		"spotlight2"
     		"spotlight3";
 		grid-area: spotlights; 
-		border: 1px solid #555;
+		/* border: 1px solid #555; */
 	}
 
 	.subtitle {
