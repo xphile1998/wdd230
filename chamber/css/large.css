@@ -113,7 +113,9 @@
 		grid-area: spotlight2; 
 		border: 1px solid #555;
 	}
+	
 	#spotlight3 { 
+		display: grid;
 		grid-area: spotlight3; 
 		border: 1px solid #555;
 	}

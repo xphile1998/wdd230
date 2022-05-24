@@ -65,6 +65,7 @@ h2 {
 h3 {
     font-size: 1rem;
 }
+
 header {
     background-color: var(--primary-color);
     font-family: var(--heading-font);
@@ -126,6 +127,59 @@ nav ul li a:hover {
 a {
     text-decoration: none;
     color: var(--nav-link-color);
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content max-content max-content max-content;
+    gap: 5px 5px;
+    grid-template-areas:
+		  "hero"
+          "event"
+          "weather"
+          "news"
+		  "spotlights";
+    /* border: 1px solid #050505; */
+    margin: 10px 0 10px 0;
+}
+
+.event {
+    grid-area: event;
+    border: 1px solid #555;
+}
+
+.weather {
+    grid-area: weather;
+    border: 1px solid #555;
+}
+
+.join {
+    display: none;
+    grid-area: join;
+    border: 1px solid #555;
+}
+
+.hero {
+    grid-area: hero;
+    border: 1px solid #555;
+}
+
+.news {
+    grid-area: news;
+    border: 1px solid #555;
+}
+
+.spotlights {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: max-content max-content;
+    gap: 5px;
+    grid-template-areas: 
+    	"spotlight1"
+        "spotlight2";
+    grid-area: spotlights;
+    /* border: 1px solid #555; */
 }
 
 footer {
@@ -251,41 +305,8 @@ footer {
     font-weight: 500;
 }
 
-.join {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 50px 1fr 50px;
-    grid-template-areas:    
-        ". join_us ."
-        "join_h2 join_h2 join_h2"
-        "join_h2 join_h2 join_h2";
-    align-items: center;
-    align-content: center;
-}
-
-.join>h2 {
-    grid-area: join_h2;
-    
-}
-
-.join_us {
-    background-color: darkgreen;
-    font-family: var(--heading-font);
-    color: yellow;
-    justify-self: center;
-    border-radius: 10px;
-    grid-area: join_us;
-}
-
-.join>h2 {
-    font-weight: bolder;
-    font-family: var(--paragraph-font);
-    font-size: .8rem;
-    text-align: center;
-}
-
 .hero {
-    background-image: url("../images/GreenValleyNorthBanner.jpg");
+    background-image: url("../images/GreenValleyNorth.jpg");
 }
 
 /* 
@@ -338,4 +359,17 @@ footer {
 #location_map {
     background-color: #050505;
     color: white;
+}
+
+#spotlight1 {
+    grid-area: spotlight1;
+    border: 1px solid #555;
+}
+
+#spotlight2 {
+    grid-area: spotlight2;
+    border: 1px solid #555;
+}
+#spotlight3 {
+    display: none;
 }
