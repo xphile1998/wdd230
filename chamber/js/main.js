@@ -33,18 +33,6 @@ const api = {
 }
 const query = "Henderson, US"
 
-/*
-const searchbox = document.querySelector('.search-box');
-searchbox.addEventListener('keypress', setQuery);
-
-function setQuery (evt) {
-    if (evt.keyCode === 13) {
-        getResults(searchbox.value);
-        console.log(searchbox.value);
-    }
-}
-*/
-
 getResults(query);
 
 function getResults (query) {
@@ -56,15 +44,6 @@ function getResults (query) {
 
 function displayResults (weather) {
     console.log(weather);
-    // let city = document.querySelector('.location .city');
-    // city.innerText = `${weather.name}, ${weather.sys.country}`;
-    
-    // let coords = document.querySelector('.location .coords');
-    // coords.innerText = `lat: ${weather.coord.lat} / lon: ${weather.coord.lon}`;
-
-    // let now = new Date();
-    // let date = document.querySelector('.location .date');
-    // date.innerText = dateBuilder(now);
 
     let temp = document.querySelector('.current .temp');
     temp.innerHTML = `${Math.round(weather.main.temp)}<span>°F</span>`;
@@ -75,16 +54,3 @@ function displayResults (weather) {
     let hilo = document.querySelector('.hi-low');
     hilo.innerText = `${Math.round(weather.main.temp_min)}°F / ${Math.round(weather.main.temp_max)}°F`;
 }
-/*
-function dateBuilder (d) {
-    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
-    let day = days[d.getDay()];
-    let date = d.getDate();
-    let month = months[d.getMonth()];
-    let year = d.getFullYear();
-
-    return `${day} ${date} ${month} ${year}`;
-}
-*/

@@ -129,6 +129,20 @@ a {
     color: var(--nav-link-color);
 }
 
+footer {
+    background-color: var(--primary-color);
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-color);
+    font-size: .8rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* 
+||======================================================================||
+|| Class Formats                                                        ||
+||======================================================================||
+*/
 .main_container {
     display: grid;
     grid-template-columns: 1fr;
@@ -146,7 +160,32 @@ a {
 
 .event {
     grid-area: event;
+    background-color: var(--accent1-color);
+    font-family: var(--heading-font);
+    background-color: var(--accent1-color);
+    font-size: 1rem;
+    color: var(--primary-color);
     border: 1px solid #555;
+    padding: 5px;
+}
+
+.event h2 {
+    font-size: 1rem;
+}
+
+.event h3 {
+    font-size: small;
+}
+
+.event p {
+    font-family: var(--paragraph-font);
+    font-size: smaller;
+    margin-bottom: 5px;
+}
+
+.event a {
+    color: #3f48cc;
+    font-size: smaller;
 }
 
 .weather {
@@ -157,17 +196,43 @@ a {
 .join {
     display: none;
     grid-area: join;
+    background-color: var(--accent1-color);
+    font-family: var(--heading-font);
+    background-color: var(--accent1-color);
+    font-size: 1rem;
+    color: var(--primary-color);
     border: 1px solid #555;
+    padding: 5px;
+}
+
+.join_button {
+    background-color: darkgreen;
 }
 
 .hero {
     grid-area: hero;
+    font-family: var(--heading-font);
+    background-color: var(--accent1-color);
+    font-size: 1rem;
+    color: var(--primary-color);
     border: 1px solid #555;
+    padding: 5px;
 }
 
 .news {
     grid-area: news;
+    font-family: var(--heading-font);
+    background-color: var(--accent1-color);
+    font-size: 1rem;
+    color: var(--primary-color);
     border: 1px solid #555;
+    padding: 5px;
+}
+
+.news>article {
+    font-family: var(--paragraph-font);
+    font-size: .8rem;
+    padding-left: 10px;
 }
 
 .spotlights {
@@ -179,23 +244,9 @@ a {
     	"spotlight1"
         "spotlight2";
     grid-area: spotlights;
-    /* border: 1px solid #555; */
+    font-family: var(--paragraph-font);
 }
 
-footer {
-    background-color: var(--primary-color);
-    font-family: var(--heading-font);
-    color: var(--headline-color-on-color);
-    font-size: .8rem;
-    border-radius: 10px;
-    text-align: center;
-}
-
-/* 
-||======================================================================||
-|| Class Formats                                                        ||
-||======================================================================||
-*/
 .headings {
     margin: auto;
     text-align: center;
@@ -309,6 +360,25 @@ footer {
     background-image: url("../images/GreenValleyNorth.jpg");
 }
 
+.sl_heading {
+    font-family: var(--heading-font);
+    font-weight: 900;
+}
+
+.sl_pic {
+    width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.sl_quote {
+    font-size: .8rem;
+}
+
+.sl_contact {
+    font-size: .6rem;
+}
+
 /* 
 ||======================================================================||
 || ID Formats                                                           ||
@@ -363,13 +433,28 @@ footer {
 
 #spotlight1 {
     grid-area: spotlight1;
+    background-color: var(--accent1-color);
+    color: saddlebrown;
     border: 1px solid #555;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content min-content;
+    justify-items: center;
 }
 
 #spotlight2 {
     grid-area: spotlight2;
+    background-color: var(--accent1-color);
+    color: saddlebrown;
     border: 1px solid #555;
-}
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content min-content;
+    justify-items: center;}
+
 #spotlight3 {
     display: none;
+    
 }
