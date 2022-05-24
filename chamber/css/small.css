@@ -235,6 +235,10 @@ footer {
     padding-left: 10px;
 }
 
+.news>article>h2 {
+    font-family: var(--heading-font);
+}
+
 .spotlights {
     display: grid;
     grid-template-columns: 100%;
