@@ -43,14 +43,25 @@ function getResults (query) {
 }
 
 function displayResults (weather) {
+    const main_temp = weather.main.temp
+    const conditions = weather.weather[0].main
+    const wind_speed = (weather.wind.speed / 1.609).toFixed(1)
+    const wind_chill = (35.74 + (0.6215 * main_temp) - (35.75 * (wind_speed ** 0.16)) + (0.4275 * main_temp * (wind_speed ** 0.16))).toFixed(0)
+    
     console.log(weather);
 
     let temp = document.querySelector('.current .temp');
-    temp.innerHTML = `${Math.round(weather.main.temp)}<span>°F</span>`;
+    temp.innerHTML = `${Math.round(main_temp)}<span>°F</span>`;
 
     let weather_el = document.querySelector('.current .conditions');
-    weather_el.innerText = weather.weather[0].main;
+    weather_el.innerText = conditions;
 
     let hilo = document.querySelector('.hi-low');
     hilo.innerText = `${Math.round(weather.main.temp_min)}°F / ${Math.round(weather.main.temp_max)}°F`;
+    
+    let speed = document.querySelector('#speed');
+    speed.innerText = `Wind Speed: ${wind_speed} mph`;
+    
+    let chill = document.querySelector('#chill');
+    chill.innerText = `Wind Chill: ${wind_chill}°F`
 }
