@@ -1,4 +1,4 @@
-@media (min-width: 48em) {
+@media (min-width: 74rem) {
 	/* 
 	||======================================================================||
 	|| Basic Page Formats                                                   ||
@@ -49,6 +49,17 @@
 	.hero { 
 		grid-area: hero; 
 		border: 1px solid #555;
+	}
+	
+	.hero_pic {
+		display: inline-flex;
+		flex-direction: row;
+		width: fit-content;
+		max-width: 450px;
+	}
+	
+	.hero_pic img {
+		max-width: 420px;
 	}
 	  
 	.news { 

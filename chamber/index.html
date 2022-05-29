@@ -21,11 +21,11 @@
         <script src="js/windchill.js" defer></script>
 </head>
     <body>
-        <header>
+        <header class="clearfix">
             <div class="first_line_head">
                 <div class="logo_name">
                     <picture>
-                        <img id="head_logo" src="images/GVCoC_Logo_Only.png" alt="GVCoC Logo">
+                        <img id="head_logo" src="images/GVCoC_Logo_Only.webp" alt="GVCoC Logo">
                     </picture>
                     <section class="headings">
                         <h1>Green Valley</h1>
@@ -85,6 +85,18 @@
                 <div class="hero">
                     <h2>Green Valley</h2>
                     <h3>Henderson, NV</h3>
+                    <picture class="hero_pic">
+                        <source media="(min-width: 800px)" srcset="images/wdd230-org_800.jpg 1x">
+                        <source media="(min-width: 500px)" srcset="images/wdd230-org_500.jpg 1x">
+                        <img src="images/wdd230-org_200.jpg" alt="Generic Office Setting">
+                    </picture>
+                    
+                    <!-- <figure class="hero_pic">
+                        <img src="images/wdd230-org_200.jpg" sizes="50%"
+                        srcset="images/wdd230-org_500.jpg 500w,
+                                images/wdd230-org_800.jpg 800w"
+                        alt="WDD230 Org Pic">
+                    </figure> -->
                 </div>
                 <div class="news">
                     <article>

@@ -361,8 +361,9 @@ footer {
     font-weight: 500;
 }
 
-.hero {
-    background-image: url("../images/wdd230-org.jpg");
+figure.hero {
+    /* background-image: url("../images/wdd230-org.jpg"); */
+    width: 100%;
 }
 
 .sl_heading {
@@ -462,4 +463,11 @@ footer {
 #spotlight3 {
     display: none;
     
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
