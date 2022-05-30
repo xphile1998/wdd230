@@ -1,0 +1,29 @@
+﻿main {
+    background-color: #3f48cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictures {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 10px;
+    align-items: center;
+    padding: 25px 0 25px 0;
+    background-color: #44cfcb;
+}
+
+h1 {
+    text-align: center;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}

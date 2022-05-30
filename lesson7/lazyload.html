@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lazyload Lesson 7</title>
+    <meta name="description" content="W07 Activity - Progressive Loading of Images">
+    
+    <link rel="stylesheet" href="css/base.css">
+    
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-
+    <main>
+        <h1>W07 Activity Page - Progressive Loading of Images</h1>
+        <div class="pictures">
+            <picture>
+                <img src="images/placeholder-image.png" data-src="https://placeimg.com/300/400/animals" alt="placeholder">
+            </picture>
+            <picture>
+                <img src="images/placeholder-image.png" data-src="https://unsplash.it/300/400" alt="unsplash.it">
+            </picture>
+            <picture>
+                <img src="images/placeholder-image.png" data-src="https://placeimg.com/300/400/any" alt="placeimage.com">
+            </picture>
+            <picture>
+                <img src="images/placeholder-image.png" data-src="https://placebear.com/300/400" alt="placebear.com">
+            </picture>
+            <picture>
+                <img src="images/placeholder-image.png" data-src="https://baconmockup.com/300/400" alt="baconmockup.com">
+            </picture>
+            <picture>
+                <img src="images/placeholder-image.png" data-src="https://picsum.photos/300/400" alt="picsum.photos">
+            </picture>
+        </div>
+    </main>
 </body>
 </html>
