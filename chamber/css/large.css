@@ -137,7 +137,7 @@
 		justify-items: center;
 	}
 
-	#discover {
+	.discover {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: max-content max-content max-content;
@@ -150,44 +150,44 @@
 		border: 1px solid #050505; 
 	}
 
-	#demographics {
+	.demographics {
 		grid-area: demographics;
 		position: relative;
-		text-align: center;
+		/* text-align: center; */
 	}
 
-	#demo_art {
+	.demo_art {
 		opacity: 0.3;
 	}
 
-	#demo_text {
+	.demo_text {
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 
-	#factoid1 {
+	.factoid1 {
 		grid-area: factoid1;
 		
 	}
 
-	#factoid2 {
+	.factoid2 {
 		grid-area: factoid2;
 		
 	}
 
-	#factoid3 {
+	.factoid3 {
 		grid-area: factoid3;
 		
 	}
 
-	#factoid4 {
+	.factoid4 {
 		grid-area: factoid4;
 		
 	}
 
-	#factoid5 {
+	.factoid5 {
 		grid-area: factoid5;
 		
 	}
