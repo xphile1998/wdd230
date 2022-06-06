@@ -143,11 +143,41 @@
 		grid-template-rows: max-content max-content max-content;
 		gap: 5px 5px;
 		grid-template-areas: 
-			". . ."
-			". . ."
-			". . .";
+			"demographics factoid1 factoid2"
+			"demographics factoid1 factoid2"
+			"factoid3 factoid4 factoid5";
 		margin-bottom: 10px;
 		border: 1px solid #050505; 
+	}
+
+	#demographics {
+		grid-area: demographics;
+		
+	}
+
+	#factoid1 {
+		grid-area: factoid1;
+		
+	}
+
+	#factoid2 {
+		grid-area: factoid2;
+		
+	}
+
+	#factoid3 {
+		grid-area: factoid3;
+		
+	}
+
+	#factoid4 {
+		grid-area: factoid4;
+		
+	}
+
+	#factoid5 {
+		grid-area: factoid5;
+		
 	}
 }
 
