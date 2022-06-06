@@ -152,7 +152,19 @@
 
 	#demographics {
 		grid-area: demographics;
-		
+		position: relative;
+		text-align: center;
+	}
+
+	#demo_art {
+		opacity: 0.3;
+	}
+
+	#demo_text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 
 	#factoid1 {
