@@ -118,12 +118,13 @@
 	.container {
 		display: grid;
 		grid-template-columns: .5fr 1fr .75fr;
-		grid-template-rows: 1fr .75fr;
+		grid-template-rows: 1fr .75fr .25fr;
 		gap: 2px 2px;
 		padding: 10px;
 		grid-template-areas: 
 			"foot_logo name_address location_info"
-			"author_info author_info author_info";
+			"author_info author_info author_info"
+			"days_since days_since days_since";
 		align-items: center;
 		justify-content: space-evenly;
 	}
@@ -142,6 +143,11 @@
 
 	.location_info { 
 		grid-area: location_info; 
+	}
+	
+	.days_since {
+		margin: 10px;
+		grid-area: days_since;
 	}
 
 	/* 
