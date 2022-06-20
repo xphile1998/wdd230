@@ -24,7 +24,7 @@ const x = document.getElementById('hamburgerBtn');
 
 x.onclick = toggleMenu;
 
-
+/* 
 let this_visit = Date.now();
 let last_visit = Number(window.localStorage.getItem("last_visit"));
 days_since = this_visit - last_visit;
@@ -32,3 +32,4 @@ days_since = this_visit - last_visit;
 todayDisplay.textContent = days_since;
 
 localStorage.setItem("last_visit", this_visit);
+*/ 
