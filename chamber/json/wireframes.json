@@ -1,0 +1,20 @@
+﻿{
+  "wireframes": [
+    {
+      "description": "Directory Page: Large Screen Wireframe",
+      "picURL": "images/w10_wireframes_webp/wf_directory_page_large.webp"
+    },
+    {
+      "description": "Directory Page: Medium Screen Wireframe",
+      "picURL": "images/w10_wireframes_webp/wf_directory_page_medium.webp"
+    },
+    {
+      "description": "Directory Page: Small Screen Wireframe",
+      "picURL": "images/w10_wireframes_webp/wf_directory_page_small.webp"
+    },
+    {
+      "description": "Directory Page: Directory Card Wireframe",
+      "picURL": "images/w10_wireframes_webp/wf_directory_card.webp"
+    }
+  ]
+}

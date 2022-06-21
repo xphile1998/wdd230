@@ -1,0 +1,103 @@
+﻿{
+  "businesses": [
+    {
+      "business_name": "Quest Diagnostics",
+      "business_description": "When it comes to blood, we don't suck!",
+      "first_name": "Ricky",
+      "last_name": "Gervais",
+      "contact_title": "Director of Operations",
+      "contact_phone": "702-555-1324",
+      "contact_email": "rgervais@questdiag.com",
+      "logo": "images/chamber_logos/quest_diag_200.jpg",
+      "joined": 1999
+    },
+    {
+      "business_name": "Tom's Auto Shop",
+      "business_description": "Your car, fixed fast!",
+      "first_name": "Larry",
+      "last_name": "Thomasson",
+      "contact_title": "",
+      "contact_phone": "702-555-6584",
+      "contact_email": "tomsauto@gmail.com",
+      "logo": "images/chamber_logos/toms_auto.jpg",
+      "joined": 2021
+    },
+    {
+      "business_name": "Jackie's Nails",
+      "business_description": "Best polish, hands down!",
+      "first_name": "Jackie",
+      "last_name": "McGill",
+      "contact_title": "Proprietor",
+      "contact_phone": "702-555-6548",
+      "contact_email": "missjackie@aol.com",
+      "logo": "images/chamber_logos/jackies_nails.jpg",
+      "joined": 2019
+    },
+    {
+      "business_name": "Hades' Fire Pits",
+      "business_description": "When burning down the house isn't good enough.",
+      "first_name": "Natasha",
+      "last_name": "Morningstar",
+      "contact_title": "President",
+      "contact_phone": "702-555-3245",
+      "contact_email": "hadesfirepits@dys.com",
+      "logo": "images/chamber_logos/hades_fire_pits.jpg",
+      "joined": "the Beginning of Time"
+    },
+    {
+      "business_name": "Subway",
+      "business_description": "Eat fresh!",
+      "first_name": "Dolores",
+      "last_name": "Smiley",
+      "contact_title": "Head Sandwich Artist",
+      "contact_phone": "702-555-9457",
+      "contact_email": "gv_subway@subway.com",
+      "logo": "images/chamber_logos/subway_100.webp",
+      "joined": 2004
+    },
+    {
+      "business_name": "Green Valley Public Library",
+      "business_description": "Literarily serving our community.",
+      "first_name": "Sandra",
+      "last_name": "Bookman",
+      "contact_title": "Head Librarian",
+      "contact_phone": "702-555-2265",
+      "contact_email": "gv_library@greenvalley.com",
+      "logo": "images/chamber_logos/gv_library.webp",
+      "joined": 2001
+    },
+    {
+      "business_name": "Donna's Dump",
+      "business_description": "A thrift store with attitude",
+      "first_name": "Donna",
+      "last_name": "Dynamo",
+      "contact_title": "First Trash Hunter",
+      "contact_phone": "702-555-6455",
+      "contact_email": "donna@donnasdump.com",
+      "logo": "images/chamber_logos/donnas_dump.webp",
+      "joined": 2020
+    },
+    {
+      "business_name": "Green Valley Music",
+      "business_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "first_name": "John",
+      "last_name": "Williams",
+      "contact_title": "Maestro",
+      "contact_phone": "702-555-0504",
+      "contact_email": "maytheforce@music.hobbies",
+      "logo": "images/chamber_logos/gv_music.webp",
+      "joined": 2014
+    },
+    {
+      "business_name": "Weasley's Wizard Wheezes ",
+      "business_description": "The constipation sensation that's gripping the nation!",
+      "first_name": "George",
+      "last_name": "Weasley",
+      "contact_title": "Head Trickster",
+      "contact_phone": "702-555-1111",
+      "contact_email": "george@wizardwheezes.magic",
+      "logo": "images/chamber_logos/Weasleys_Wizard_Wheezes.webp",
+      "joined": 2009
+    }
+  ]
+}  
