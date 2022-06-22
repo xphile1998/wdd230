@@ -1,0 +1,223 @@
+@media (min-width: 800px) {
+	/* 
+	||======================================================================||
+	|| Basic Page Formats                                                   ||
+	||======================================================================||
+	*/
+	nav ul li a {
+        padding: .5rem 1rem;
+    }
+
+	header {
+		font-size: 1.25rem;
+		text-align: center;
+	}
+
+	/* 
+	||======================================================================||
+	|| Class Formats                                                        ||
+	||======================================================================||
+	*/
+	.main_container {  
+		display: grid;
+		grid-template-columns: 25% 50% 25%;
+		grid-template-rows: max-content max-content max-content;
+		gap: 5px 5px;
+		grid-template-areas:
+		  "event hero spotlights"
+		  "weather hero spotlights"
+		  "join news spotlights";
+		/* border: 1px solid #050505; */
+		margin-bottom: 10px;
+	}
+	  
+	.event { 
+		grid-area: event; 
+		border: 1px solid #555;
+	}
+	
+	.weather { 
+		grid-area: weather;
+		border: 1px solid #555; 
+	}
+	  
+	.join { 
+		grid-area: join; 
+		border: 1px solid #555;
+	}
+	  
+	.hero { 
+		grid-area: hero; 
+		border: 1px solid #555;
+	}
+	
+	.hero_pic {
+		display: inline-flex;
+		flex-direction: row;
+		width: fit-content;
+		max-width: 450px;
+	}
+	
+	.hero_pic img {
+		max-width: 420px;
+	}
+	  
+	.news { 
+		grid-area: news; 
+		border: 1px solid #555;
+	}
+	  
+	.spotlights { 
+		display: grid; 
+  		grid-template-columns: 1fr; 
+  		grid-template-rows: max-content max-content max-content; 
+  		gap: 5px 0; 
+  		grid-template-areas: 
+    		"spotlight1"
+    		"spotlight2"
+    		"spotlight3";
+		grid-area: spotlights; 
+		/* border: 1px solid #555; */
+	}
+
+	.subtitle {
+		font-size: 1.25rem;
+	}
+
+	.name_address {
+		line-height: 3rem;
+	}
+
+	.location_info {
+		line-height: 2rem;
+	}
+
+	/* 
+	||======================================================================||
+	|| ID Formats                                                           ||
+	||======================================================================||
+	*/
+	#head_logo {
+		width: 100px;
+		height: auto;
+	}
+
+	#ft_logo {
+		width: 100px;
+	}
+
+	#foot_paragraph {
+		font-size: 1.6rem;
+	}
+
+	#address {
+		font-size: 1.25rem;
+		line-height: 1.25rem;
+	}
+
+	#spotlight1 { 
+		grid-area: spotlight1; 
+		border: 1px solid #555;
+	}
+
+	#spotlight2 { 
+		grid-area: spotlight2; 
+		border: 1px solid #555;
+	}
+	
+	#spotlight3 { 
+		grid-area: spotlight3; 
+		background-color: var(--accent1-color);
+		color: saddlebrown;
+		border: 1px solid #555;
+		padding: 5px;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: min-content min-content min-content min-content;
+		justify-items: center;
+	}
+
+	.discover {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: max-content max-content max-content;
+		gap: 5px 5px;
+		grid-template-areas: 
+			"demographics factoid1 factoid2"
+			"demographics factoid1 factoid2"
+			"factoid3 factoid4 factoid5";
+		margin: 10px 0 10px 0;
+		border: 1px solid #050505; 
+		font-family: var(--paragraph-font);
+	}
+
+	.demographics {
+		grid-area: demographics;
+		/* display: block; */
+		position: relative;
+		padding-top: 10px;
+		/* text-align: center; */
+	}
+
+	.fact_art {
+		opacity: 0.3;
+		width: 100%;
+		height: 100%;
+	}
+
+	.fact_text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.factoid1 {
+		grid-area: factoid1;
+		position: relative;
+		padding-top: 10px;
+	}
+
+	.fact1_art {
+		opacity: 0.7;
+		width: 95%;
+		height: 95%;
+	}
+
+	.fact1_text {
+		position: absolute;
+		top: 50%;
+		left: 45%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+		color: rgb(124, 252, 19);
+		-webkit-text-stroke: 1px #050505;
+	}
+
+	.factoid2 {
+		grid-area: factoid2;
+		position: relative;
+		padding-top: 10px;
+	}
+	
+
+	.factoid3 {
+		grid-area: factoid3;
+		position: relative;
+	}
+
+	.factoid4 {
+		grid-area: factoid4;
+		position: relative;
+	}
+
+	.factoid5 {
+		grid-area: factoid5;
+		position: relative;
+	}
+
+	.fact_paragraph {
+		font-size: .9rem;
+	}
+}
+
