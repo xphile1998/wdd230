@@ -22,6 +22,9 @@ function displayResults (weather) {
     const conditions = weather.weather[0].main
     const wind_speed = (weather.wind.speed / 1.609).toFixed(1)
     let wind_chill = (35.74 + (0.6215 * main_temp) - (35.75 * (wind_speed ** 0.16)) + (0.4275 * main_temp * (wind_speed ** 0.16))).toFixed(0)
+    const iconsrc = `https://openweathermap.org/img/w/${weather.weather[0].icon}.png`;
+    const desc = weather.weather[0].description;
+    const weatherIcon = document.querySelector('.icon')
     
     console.log(weather);
 
@@ -43,5 +46,9 @@ function displayResults (weather) {
     } else {
         chill.innerText = `Wind Chill: N/A`;
     }
+    
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', desc);
+    weatherIcon.setAttribute('width', '100')
     
 }
