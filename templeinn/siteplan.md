@@ -52,6 +52,7 @@ We also provide other services such as wedding reception venues which may be of 
 
 
 ## Color Scheme
+[A link to coolers.co palette](https://coolors.co/0c1d36-f9cc0b-f9f9f9-b4b9c1-31c2d8)
 
 ## Typography
 

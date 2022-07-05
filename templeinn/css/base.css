@@ -1,0 +1,35 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Barlow&display=swap');
+
+:root {
+    /* Base Colors from coolors.co */
+    --oxford-blue: #0c1d36ff;
+    --jonquil: #f9cc0bff;
+    --cultured: #f9f9f9ff;
+    --silver-sand: #b4b9c1ff;
+    --sky-blue-crayola: #31c2d8ff;
+
+    /* change the values below to your colors from your palette */
+    --primary-color: var(--oxford-blue);
+    --secondary-color: var(--jonquil);
+    --accent1-color: var(--cultured);
+    --accent2-color: var(--silver-sand);
+    --accent3-color: var(--sky-blue-crayola);
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Noto Sans", sans-serif;
+    --paragraph-font: Barlow, Helvetica, sans-serif;
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: var(--oxford-blue); /* headlines on a white background */
+    --headline-color-on-color: var(--jonquil); /* headlines on a colored background */
+    --paragraph-color-on-white: var(--oxford-blue); /* paragraph text on a white background */
+    --paragraph-color-on-color: var(--cultured); /* paragraph text on a colored background */
+    --text-background-color: var(--silver-sand); /* text box background color */
+    --nav-link-color: var(--jonquil); 
+    --nav-background-color: var(--silver-sand);
+    --nav-hover-link-color: var(--sky-blue-crayola);
+    --nav-hover-background-color: var(--cultured);
+}
