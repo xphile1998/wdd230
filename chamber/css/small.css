@@ -634,7 +634,7 @@ form textarea {
         "hilo hilo"
         "speed speed"
         "chill chill";
-    child-align: center;
+    child-align: middle;
     padding: 0;
     margin: 0;
 }
