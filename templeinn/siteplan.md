@@ -55,5 +55,7 @@ We also provide other services such as wedding reception venues which may be of 
 [A link to coolers.co palette](https://coolors.co/0c1d36-f9cc0b-f9f9f9-b4b9c1-31c2d8)
 
 ## Typography
+We will be using Montserrat as our heading font and Findlandica as the standard paragraph font.
 
 ## Wireframe Sketches
+![](images/tias_home_wireframe_laptop.webp)![](images/tias_home_wireframe_medium.webp)![](images/tias_home_wireframe_small.webp)
