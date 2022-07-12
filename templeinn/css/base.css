@@ -66,10 +66,11 @@ html {
 }
 
 body {
-    max-width: 900px;
+    max-width: 1024px;
     margin: 0 auto;
     background-color: white;
     padding: 1em;
+    align-content: center;
 }
 
 h1, p {
@@ -100,7 +101,7 @@ header {
     background-color: var(--primary-color);
     font-family: var(--heading-font);
     color: var(--headline-color-on-color);
-    font-size: xx-small;
+    /*font-size: xx-small;*/
     padding: 10px;
     border-radius: 10px;
     /* background-image: url("../images/GreenValleyNorthBanner.jpg"); */
