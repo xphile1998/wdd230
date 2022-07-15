@@ -18,9 +18,10 @@
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/weather.css">
         
         <script src="js/main.js" defer></script>
-        <!-- <script src="js/windchill.js" defer></script> -->
+        <script src="js/weather-app.js" defer></script>
     </head>
     <body>
         <header>
@@ -77,12 +78,10 @@
                         families. It is our goal to make sure that during your visit to the Temple of the Lord, you 
                         and your family can focus on making it spiritual and fulfilling!</p>
                     <p id="wel-paragraph2">The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that 
-                        builds and 
-                        manages
-                        specialized hotel accommodations near temple locations of The Church of Jesus Christ of 
-                        Latter-day Saints around the world. The owner-operated company caters to temple workers, 
-                        patrons, and their families by providing specialized services and accommodations that meet 
-                        the needs of those patrons. The hotel accommodations and services are available to anyone 
+                        builds and manages specialized hotel accommodations near temple locations of The Church of Jesus 
+                        Christ of Latter-day Saints around the world. The owner-operated company caters to temple 
+                        workers, patrons, and their families by providing specialized services and accommodations that 
+                        meet the needs of those patrons. The hotel accommodations and services are available to anyone 
                         willing to abide by the terms and policies outlined by the company.</p>
                     <p id="tagline">Come and stay with us!</p>
                     <img id="welcome-img" src="images/lobby-hotel.png" alt="Our Lobby" width="450">
@@ -92,11 +91,25 @@
                 </div>
                 <div class="temple-summary">
                     <span>This is a TEMPLE SUMMARY placeholder</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore omnis tempore voluptatibus! A asperiores aut deleniti doloribus ea expedita facere iste labore molestias provident quis sunt vitae voluptate, voluptatibus!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore omnis tempore 
+                        voluptatibus! A asperiores aut deleniti doloribus ea expedita facere iste labore molestias 
+                        provident quis sunt vitae voluptate, voluptatibus!</p>
                 </div>
                 <div class="weather-app">
-                    <span>This is a WEATHER APP placeholder</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore omnis tempore voluptatibus! A asperiores aut deleniti doloribus ea expedita facere iste labore molestias provident quis sunt vitae voluptate, voluptatibus!</p>
+                    <div class="weather-title">Weather</div>
+                    <div class="current"></div>
+                    <div class="temp"></div>
+                    <div class="conditions"></div>
+                    <figure class="weatherIcon">
+                        <img src="" alt="" width="" class="icon">
+                        <figcaption></figcaption>
+                    </figure>
+                    <div class="forecast">
+                        <span class="hilow-title">Today's Hi/Lo</span>
+                        <div class="hi-low"></div>
+                    </div>
+                    <div class="speed"></div>
+                    <div class="chill"></div>
                 </div>
             </div>
         </main>

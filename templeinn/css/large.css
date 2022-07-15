@@ -6,6 +6,15 @@
     header {
         font-size: 1.25rem;
         text-align: center;
+        display: grid;
+        grid-template-columns: 10% 10% 10% 1fr 1fr 1fr 1fr 10%;
+        grid-template-rows: repeat(3, 4em) 1fr;
+        gap: 0 0;
+        grid-template-areas: 
+            "logo logo logo banner banner banner banner social"
+            "logo logo logo phone phone phone phone social"
+            "logo logo logo email email email email social"
+            "logo logo logo nav nav nav nav nav";
     }
 
     header img {

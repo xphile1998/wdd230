@@ -1,0 +1,46 @@
+.location .city {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.location .date {
+    color: #fff;
+    font-size: 16px;
+}
+
+.temp {
+    color: var(--secondary-color);
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0;
+    text-shadow: 2px 8px rgba(0, 0, 0, 1.0);
+}
+
+.weather {
+    color: var(--secondary-color);
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.forecast {
+    display: block;
+    text-align: center;
+}
+
+.forecast .hilow-title {
+    font-family: var(--heading-font);
+    text-decoration-line: underline;
+    font-size: 1.25rem;
+}
+
+.forecast .hi-low {
+    color: var(--secondary-color);
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0 4px rgba(0, 0, 0, 0.4);
+}

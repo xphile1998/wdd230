@@ -6,7 +6,7 @@ const api = {
     key: "e94c534dc62bfc23b1389cd61f78ca11",
     base: "https://api.openweathermap.org/data/2.5/"
 }
-const query = "Henderson, US"
+const query = "Las Vegas, US"
 
 getResults(query);
 
@@ -28,19 +28,19 @@ function displayResults (weather) {
     
     console.log(weather);
 
-    let temp = document.querySelector('.current .temp');
+    let temp = document.querySelector('.temp');
     temp.innerHTML = `${Math.round(main_temp)}<span>°F</span>`;
 
-    let weather_el = document.querySelector('.current .conditions');
+    let weather_el = document.querySelector('.conditions');
     weather_el.innerText = conditions;
 
     let hilo = document.querySelector('.hi-low');
     hilo.innerText = `${Math.round(weather.main.temp_min)}°F / ${Math.round(weather.main.temp_max)}°F`;
 
-    let speed = document.querySelector('#speed');
+    let speed = document.querySelector('.speed');
     speed.innerText = `Wind Speed: ${wind_speed} mph`;
 
-    let chill = document.querySelector('#chill');
+    let chill = document.querySelector('.chill');
     if (main_temp <= 50 && wind_speed > 3.0) {
         chill.innerText = `Wind Chill: ${wind_chill}°F`;
     } else {

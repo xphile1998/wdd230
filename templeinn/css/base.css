@@ -105,15 +105,6 @@ header {
     color: var(--headline-color-on-color);
     padding: 10px;
     border-radius: 20px;
-    display: grid;
-    grid-template-columns: 10% 10% 10% 1fr 1fr 1fr 1fr 10%;
-    grid-template-rows: repeat(3, 4em) 1fr;
-    gap: 0 0;
-    grid-template-areas: 
-    "logo logo logo banner banner banner banner social"
-    "logo logo logo phone phone phone phone social"
-    "logo logo logo email email email email social"
-    "logo logo logo nav nav nav nav nav";
     background-image: url("../images/hotel_room_1024.webp");
 }
 
@@ -257,6 +248,52 @@ div {
 .social img {
     width: 50px;
     height: auto;
+}
+
+.weather-app {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0 0;
+    grid-template-areas:
+        "title title"
+        "temp hi-low"
+        "weatherIcon conditions"
+        "speed chill";
+    align-items: center;
+    justify-items: center;
+}
+
+.weather-title {
+    grid-area: title;
+    font-family: var(--heading-font);
+    font-size: 2rem
+}
+
+.temp {
+    grid-area: temp;
+}
+
+.forecast {
+    grid-area: hi-low;
+}
+
+.weatherIcon {
+    grid-area: weatherIcon;
+}
+
+.conditions {
+    grid-area: conditions;
+}
+
+.speed {
+    grid-area: speed;
+}
+
+.chill {
+    grid-area: chill;
 }
 
 /* 
