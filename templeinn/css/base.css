@@ -251,6 +251,8 @@ div {
 }
 
 .weather-app {
+    max-width: 386px;
+    max-height: 386px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     display: grid;
@@ -264,6 +266,7 @@ div {
         "speed chill";
     align-items: center;
     justify-items: center;
+    background-image: url("../../chamber/images/las_vegas_strip_400px.webp");
 }
 
 .weather-title {
