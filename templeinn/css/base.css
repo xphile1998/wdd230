@@ -96,6 +96,7 @@ h3 {
 p {
     font-family: var(--paragraph-font);
     font-size:  1rem;
+    padding: 5px;
 }
 
 header {
@@ -308,6 +309,10 @@ div {
 #location_map {
     background-color: #050505;
     color: white;
+}
+
+#tagline {
+    font-size: 1.5rem;
 }
 
 /* 
