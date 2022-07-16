@@ -1,144 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Temple Inn & Suites - Home</title>
-        <meta name="description" content="Temple Inn & Suites - Home page">
-    
-        <link rel="shortcut icon" href="images/tias_logo.ico">
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Finlandica&family=Montserrat&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/large.css">
-        <link rel="stylesheet" href="css/weather.css">
-        
-        <script src="js/main.js" defer></script>
-        <script src="js/weather-app.js" defer></script>
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <picture>
-                    <img src="images/tias_logo.png" alt="TIAS Logo">
-                </picture>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1"
+          name="viewport">
+    <title>Temple Inn & Suites - Home</title>
+    <meta content="Temple Inn & Suites - Home page"
+          name="description">
+
+    <link href="images/tias_logo.ico"
+          rel="shortcut icon">
+
+    <link href="https://fonts.googleapis.com"
+          rel="preconnect">
+    <link crossorigin
+          href="https://fonts.gstatic.com"
+          rel="preconnect">
+    <link href="https://fonts.googleapis.com"
+          rel="preconnect">
+    <link crossorigin
+          href="https://fonts.gstatic.com"
+          rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica&family=Montserrat&display=swap"
+          rel="stylesheet">
+
+    <link href="css/normalize.css"
+          rel="stylesheet">
+    <link href="css/base.css"
+          rel="stylesheet">
+    <link href="css/medium.css"
+          rel="stylesheet">
+    <link href="css/large.css"
+          rel="stylesheet">
+    <link href="css/weather.css"
+          rel="stylesheet">
+
+    <script defer
+            src="js/main.js"></script>
+    <script defer
+            src="js/weather-app.js"></script>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <picture>
+            <img alt="TIAS Logo"
+                 src="images/tias_logo.png">
+        </picture>
+    </div>
+    <div class="banner">
+        <h1>Temple Inn & Suites</h1>
+    </div>
+    <div class="phone">
+        <h2>Phone: (702) 555-5555</h2>
+    </div>
+    <div class="email">
+        <h2>Email: reservations@tiaslasvegas.com</h2>
+    </div>
+    <div class="social">
+        <a href="https://facebook.com"
+           target="_blank">
+            <img alt="Facebook Page"
+                 id="facebook"
+                 src="images/social-facebook-button-blue-icon.png">
+        </a>
+        <a href="https://linkedin.com"
+           target="_blank">
+            <img alt="LinkedIn Page"
+                 id="linkedin"
+                 src="images/linkedin-icon.png">
+        </a>
+        <a href="https://instagram.com"
+           target="_blank">
+            <img alt="Instagram Page"
+                 id="instagram"
+                 src="images/48px-Instagram_icon.png">
+        </a>
+        <a href="https://gmial.com"
+           target="_blank">
+            <img alt="Gmail Page"
+                 id="gmail"
+                 src="images/Gmail_Logo_48px.png">
+        </a>
+    </div>
+    <nav class="nav">
+        <button id="hamburgerBtn">
+            <span>&#9776;</span>
+            <span>X</span>
+        </button>
+        <ul id="primaryNav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Temple</a></li>
+            <li><a href="#">Reservations</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="main-container">
+        <div class="welcome">
+            <h2 id="wel-title">Welcome to Temple In & Suites - Las Vegas!</h2>
+            <h3 id="wel-subtitle">Your home away from home when you're out doing work of the Lord.</h3>
+            <p id="wel-paragraph1"> A hotel chain that specializes in providing clean and comfortable
+                accommodations near LDS
+                temple locations worldwide focused on the particular needs of temple patrons and their
+                families. It is our goal to make sure that during your visit to the Temple of the Lord, you
+                and your family can focus on making it spiritual and fulfilling!</p>
+            <p id="wel-paragraph2">The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that
+                builds and manages specialized hotel accommodations near temple locations of The Church of Jesus
+                Christ of Latter-day Saints around the world. The owner-operated company caters to temple
+                workers, patrons, and their families by providing specialized services and accommodations that
+                meet the needs of those patrons. The hotel accommodations and services are available to anyone
+                willing to abide by the terms and policies outlined by the company.</p>
+            <p id="tagline">Come and stay with us!</p>
+            <img alt="Our Lobby"
+                 id="welcome-img"
+                 src="images/lobby-hotel.png"
+                 width="450">
+        </div>
+        <div class="make-reservation">
+            <span>This is a MAKE A RESERVATION placeholder</span>m
+        </div>
+        <div class="temple-summary">
+            <span>This is a TEMPLE SUMMARY placeholder</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore omnis tempore
+                voluptatibus! A asperiores aut deleniti doloribus ea expedita facere iste labore molestias
+                provident quis sunt vitae voluptate, voluptatibus!</p>
+        </div>
+        <div class="weather-app">
+            <div class="weather-title">Weather</div>
+            <div class="current"></div>
+            <div class="temp"></div>
+            <div class="conditions"></div>
+            <figure class="weatherIcon">
+                <img alt=""
+                     class="icon"
+                     src=""
+                     width="">
+                <figcaption></figcaption>
+            </figure>
+            <div class="forecast">
+                <span class="hilow-title">Today's Hi/Lo</span>
+                <div class="hi-low"></div>
             </div>
-            <div class="banner">
-                <h1>Temple Inn & Suites</h1>
-            </div>
-            <div class="phone">
-                <h2>Phone: (702) 555-5555</h2>
-            </div>
-            <div class="email">
-                <h2>Email: reservations@tiaslasvegas.com</h2>
-            </div>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img id="facebook" src="images/social-facebook-button-blue-icon.png" alt="Facebook Page">
-                </a>
-                <a href="https://linkedin.com" target="_blank">
-                    <img id="linkedin" src="images/linkedin-icon.png" alt="LinkedIn Page">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img id="instagram" src="images/48px-Instagram_icon.png" alt="Instagram Page">
-                </a>
-                <a href="https://gmial.com" target="_blank">
-                    <img id="gmail" src="images/Gmail_Logo_48px.png" alt="Gmail Page">
-                </a>
-            </div>
-            <nav class="nav">
-                <button id="hamburgerBtn">
-                    <span>&#9776;</span>
-                    <span>X</span>
-                </button>
-                <ul id="primaryNav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Temple</a></li>
-                    <li><a href="#">Reservations</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="main-container">
-                <div class="welcome">
-                    <h2 id="wel-title">Welcome to Temple In & Suites - Las Vegas!</h2>
-                    <h3 id="wel-subtitle">Your home away from home when you're out doing work of the Lord.</h3>
-                    <p id="wel-paragraph1"> A hotel chain that specializes in providing clean and comfortable 
-                        accommodations near LDS 
-                        temple locations worldwide focused on the particular needs of temple patrons and their 
-                        families. It is our goal to make sure that during your visit to the Temple of the Lord, you 
-                        and your family can focus on making it spiritual and fulfilling!</p>
-                    <p id="wel-paragraph2">The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that 
-                        builds and manages specialized hotel accommodations near temple locations of The Church of Jesus 
-                        Christ of Latter-day Saints around the world. The owner-operated company caters to temple 
-                        workers, patrons, and their families by providing specialized services and accommodations that 
-                        meet the needs of those patrons. The hotel accommodations and services are available to anyone 
-                        willing to abide by the terms and policies outlined by the company.</p>
-                    <p id="tagline">Come and stay with us!</p>
-                    <img id="welcome-img" src="images/lobby-hotel.png" alt="Our Lobby" width="450">
-                </div>
-                <div class="make-reservation">
-                    <span>This is a MAKE A RESERVATION placeholder</span>m  
-                </div>
-                <div class="temple-summary">
-                    <span>This is a TEMPLE SUMMARY placeholder</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore omnis tempore 
-                        voluptatibus! A asperiores aut deleniti doloribus ea expedita facere iste labore molestias 
-                        provident quis sunt vitae voluptate, voluptatibus!</p>
-                </div>
-                <div class="weather-app">
-                    <div class="weather-title">Weather</div>
-                    <div class="current"></div>
-                    <div class="temp"></div>
-                    <div class="conditions"></div>
-                    <figure class="weatherIcon">
-                        <img src="" alt="" width="" class="icon">
-                        <figcaption></figcaption>
-                    </figure>
-                    <div class="forecast">
-                        <span class="hilow-title">Today's Hi/Lo</span>
-                        <div class="hi-low"></div>
-                    </div>
-                    <div class="speed"></div>
-                    <div class="chill"></div>
-                </div>
-            </div>
-        </main>
-        
-        <footer>
-            <div class="container">
-                <div class="foot_logo">
-                    <img id="ft_logo" src="images/tias_logo_200.webp" alt="TIAS Logo - Footer">
-                </div>
-                <div class="name_address">
-                    <h2 id="foot_paragraph">Temple Inn & Suites - Las Vegas</h2>
-                    <address id="address">
-                        2271 N Green Valley Pkwy<br>
-                        Henderson, NV 89014
-                    </address>
-                </div>
-                <div class="location_info">
-                    <p id="email">&#9993; reservations@tiaslasvegas.com</p>
-                    <p id="phone">&#9742; 702-555-5555</p>
-                    <p id="location_map">&#x1F4CD; <a href="https://www.google.com/maps/@36.0550587,-115.08538,18.25z" target="_blank">Location Map</a></p>
-                </div>
-                <div class="author_info">
-                    &copy; <span id="copyYear">2020</span> Temple Inn & Suites<br>
-                    <span id="author">|o| Eron Whitefield |o|</span><br>
-                    WDD 230 Final Project
-                    <div id="lastModified"></div>
-                    <p>Weather information provided by OpenWeatherMap.org</p>
-                </div>
-            </div>
-        </footer>
-    </body>
+            <div class="speed"></div>
+            <div class="chill"></div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="foot_logo">
+            <img alt="TIAS Logo - Footer"
+                 id="ft_logo"
+                 src="images/tias_logo_200.webp">
+        </div>
+        <div class="name_address">
+            <h2 id="foot_paragraph">Temple Inn & Suites - Las Vegas</h2>
+            <address id="address">
+                2271 N Green Valley Pkwy<br>
+                Henderson, NV 89014
+            </address>
+        </div>
+        <div class="location_info">
+            <p id="email">&#9993; reservations@tiaslasvegas.com</p>
+            <p id="phone">&#9742; 702-555-5555</p>
+            <p id="location_map">&#x1F4CD; <a href="https://www.google.com/maps/@36.0550587,-115.08538,18.25z"
+                                              target="_blank">Location Map</a></p>
+        </div>
+        <div class="author_info">
+            &copy; <span id="copyYear">2020</span> Temple Inn & Suites<br>
+            <span id="author">|o| Eron Whitefield |o|</span><br>
+            WDD 230 Final Project
+            <div id="lastModified"></div>
+            <p>Weather information provided by OpenWeatherMap.org</p>
+        </div>
+    </div>
+</footer>
+</body>
 </html>

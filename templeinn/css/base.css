@@ -41,7 +41,7 @@ Fonts are separated by a | */
     --paragraph-color-on-white: var(--oxford-blue); /* paragraph text on a white background */
     --paragraph-color-on-color: var(--cultured); /* paragraph text on a colored background */
     --text-background-color: var(--silver-sand); /* text box background color */
-    --nav-link-color: var(--jonquil); 
+    --nav-link-color: var(--jonquil);
     --nav-background-color: var(--silver-sand);
     --nav-hover-link-color: var(--sky-blue-crayola);
     --nav-hover-background-color: var(--cultured);
@@ -52,7 +52,11 @@ Fonts are separated by a | */
 || Natural Box Layout Model                                             ||
 ||======================================================================||
 */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 /* 
 ||======================================================================||
@@ -82,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size:  2rem;
+    font-size: 2rem;
 }
 
 h2 {
@@ -95,7 +99,7 @@ h3 {
 
 p {
     font-family: var(--paragraph-font);
-    font-size:  1rem;
+    font-size: 1rem;
     padding: 5px;
 }
 
@@ -108,7 +112,7 @@ header {
     background-image: url("../images/hotel_room_1024.webp");
 }
 
-header > div{
+header > div {
     border: none;
 }
 
