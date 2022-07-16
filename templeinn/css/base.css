@@ -272,31 +272,50 @@ div {
 .weather-title {
     grid-area: title;
     font-family: var(--heading-font);
-    font-size: 2rem
+    font-size: 2rem;
+    border: none;
 }
 
 .temp {
     grid-area: temp;
+    border: none;
 }
 
 .forecast {
     grid-area: hi-low;
+    background-color: rgba(241, 137, 0, .5);
+    border: none;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 0px;
+}
+
+div.hi-low {
+    border: none;
 }
 
 .weatherIcon {
     grid-area: weatherIcon;
+    border: none;
 }
 
 .conditions {
     grid-area: conditions;
+    border: none;
 }
 
 .speed {
     grid-area: speed;
+    border: none;
 }
 
 .chill {
     grid-area: chill;
+    border: none;
 }
 
 /* 
