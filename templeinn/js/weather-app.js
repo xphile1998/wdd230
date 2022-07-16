@@ -10,14 +10,14 @@ const query = "Las Vegas, US"
 
 getResults(query);
 
-function getResults (query) {
+function getResults(query) {
     fetch(`${api.base}weather?q=${query}&appid=${api.key}&units=imperial`)
         .then(weather => {
             return weather.json();
         }).then(displayResults);
 }
 
-function displayResults (weather) {
+function displayResults(weather) {
     const main_temp = weather.main.temp
     const conditions = weather.weather[0].main
     const wind_speed = (weather.wind.speed / 1.609).toFixed(1)
@@ -25,7 +25,7 @@ function displayResults (weather) {
     const iconsrc = `https://openweathermap.org/img/w/${weather.weather[0].icon}.png`;
     const desc = weather.weather[0].description;
     const weatherIcon = document.querySelector('.icon')
-    
+
     console.log(weather);
 
     let temp = document.querySelector('.temp');
@@ -46,9 +46,9 @@ function displayResults (weather) {
     } else {
         chill.innerText = `Wind Chill: N/A`;
     }
-    
+
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     weatherIcon.setAttribute('width', '100')
-    
+
 }
