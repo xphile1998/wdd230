@@ -9,8 +9,10 @@
         "zip" : "89110-2920",
         "country" : "United States"
       },
-      "phone" : "(1) 702-452-5011",
-      "email" : "email address not available",
+      "contact" : {
+        "phone": "(1) 702-452-5011",
+        "email": "email address not available"
+      },
       "services" : {
         "service1" : "Clothing rental available",
         "service2" : "No cafeteria available",
@@ -22,16 +24,18 @@
         "groundbreaking": "30 November 1985",
         "dedication" : "16 December 1989"
       },
-      "ordinanceSchedule" : "Please call the temple directly for Ordinance Schedule information.",
-      "sessionSchedule" : "Please call the temple directly for Temple Session Schedule information.",
-      "templeClosureSchedule" : {
-        "closure1" : "Monday, 11 July 2022 - Monday, 25 July 2022",
-        "closure2" : "Saturday, 1 October 2022",
-        "closure3" : "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
-        "closure4" : "Saturday, 24 December 2022",
-        "closure5" : "Saturday, 31 December 2022",
-        "closure6" : "Monday, 9 January 2023 - Monday, 23 January 2023",
-        "closure7" : "Monday, 24 July 2023 - Monday, 23 October 2023"        
+      "schedules" : {
+        "ordinanceSchedule" : "Please call the temple directly for Ordinance Schedule information.",
+        "sessionSchedule" : "Please call the temple directly for Temple Session Schedule information.",
+        "closureSchedule" : {
+          "closure1" : "Monday, 11 July 2022 - Monday, 25 July 2022",
+          "closure2" : "Saturday, 1 October 2022",
+          "closure3" : "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+          "closure4" : "Saturday, 24 December 2022",
+          "closure5" : "Saturday, 31 December 2022",
+          "closure6" : "Monday, 9 January 2023 - Monday, 23 January 2023",
+          "closure7" : "Monday, 24 July 2023 - Monday, 23 October 2023"        
+        }
       },
       "templePicURL" : "https://assets.ldscdn.org/a2/87/a2876cf93e9b9908d223e09f4be65ae23cead8d4/las_vegas_temple_lds.jpg"
     },
@@ -44,8 +48,10 @@
         "zip" : "29061-9573",
         "country" : "United States"
       },
-      "phone" : "(1) 803-647-9472",
-      "email" : "email address not available",
+      "contact" : {
+        "phone" : "(1) 803-647-9472",
+        "email" : "email address not available"
+      },
       "services" : {
         "service1" : "No clothing rental available",
         "service2" : "No cafeteria available",
@@ -57,16 +63,18 @@
         "groundbreaking": "5 December 1998",
         "dedication" : "16 October 1999"
       },
-      "ordinanceSchedule" : "Please call the temple directly for Ordinance Schedule information.",
-      "sessionSchedule" : "Please call the temple directly for Temple Session Schedule information.",
-      "templeClosureSchedule" : {
-        "closure1" : "Monday, 11 July 2022 - Monday, 25 July 2022",
-        "closure2" : "Saturday, 1 October 2022",
-        "closure3" : "Wednesday, 23 November 2022",
-        "closure4" : "Thursday, 24 November 2022",
-        "closure5" : "Saturday, 24 December 2022",
-        "closure6" : "Saturday, 31 December 2022",
-        "closure7" : "Monday, 9 January 2023 - Monday, 23 January 2023"
+      "schedules": {
+        "ordinanceSchedule": "Please call the temple directly for Ordinance Schedule information.",
+        "sessionSchedule": "Please call the temple directly for Temple Session Schedule information.",
+        "closureSchedule": {
+          "closure1": "Monday, 11 July 2022 - Monday, 25 July 2022",
+          "closure2": "Saturday, 1 October 2022",
+          "closure3": "Wednesday, 23 November 2022",
+          "closure4": "Thursday, 24 November 2022",
+          "closure5": "Saturday, 24 December 2022",
+          "closure6": "Saturday, 31 December 2022",
+          "closure7": "Monday, 9 January 2023 - Monday, 23 January 2023"
+        }
       },
       "templePicURL" : "https://assets.ldscdn.org/73/98/73985db1dc36840c3880a2f26ea4f29890a46d34/columbia_temple_lds.jpeg"
     },
@@ -79,8 +87,10 @@
         "zip" : "85297",
         "country" : "United States"
       },
-      "phone" : "(1) 480-822-5000",
-      "email" : "email address not available",
+      "contact" : {
+        "phone": "(1) 480-822-5000",
+        "email": "email address not available"
+      },
       "services" : {
         "service1" : "Clothing rental available",
         "service2" : "No cafeteria available",
@@ -92,14 +102,16 @@
         "groundbreaking": "13 November 2010",
         "dedication" : "2 March 2014"
       },
-      "ordinanceSchedule" : "Please call the temple directly for Ordinance Schedule information.",
-      "sessionSchedule" : "Please call the temple directly for Temple Session Schedule information.",
-      "templeClosureSchedule" : {
-        "closure1" : "Saturday, 1 October 2022",
-        "closure2" : "Monday, 3 October 2022 - Monday, 17 October 2022",
-        "closure3" : "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
-        "closure4" : "Saturday, 24 December 2022",
-        "closure5" : "Saturday, 31 December 2022"
+      "schedules" : {
+        "ordinanceSchedule": "Please call the temple directly for Ordinance Schedule information.",
+        "sessionSchedule": "Please call the temple directly for Temple Session Schedule information.",
+        "closureSchedule": {
+          "closure1": "Saturday, 1 October 2022",
+          "closure2": "Monday, 3 October 2022 - Monday, 17 October 2022",
+          "closure3": "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+          "closure4": "Saturday, 24 December 2022",
+          "closure5": "Saturday, 31 December 2022"
+        }
       },
       "templePicURL" : "https://assets.ldscdn.org/1a/9b/1a9b4d17fab94f3ddfc0504cbe9bfb16ef2b3186/gilbert_arizona_temple.jpeg"
     },
@@ -112,8 +124,10 @@
         "zip" : "85204-1031",
         "country" : "United States"
       },
-      "phone" : "(1) 480-833-1211",
-      "email" : "email address not available",
+      "contact" : {
+        "phone" : "(1) 480-833-1211",
+        "email" : "email address not available"
+      },
       "services" : {
         "service1" : "Clothing rental available",
         "service2" : "No cafeteria available",
@@ -127,22 +141,24 @@
         "rededication1" : "15 April 1975",
         "rededication2" : "12 December 2021"
       },
-      "ordinanceSchedule" : "Please call the temple directly for Ordinance Schedule information.",
-      "sessionSchedule" : "Please call the temple directly for Temple Session Schedule information.",
-      "templeClosureSchedule" : {
-        "closure1" : "Monday, 18 July 2022 - Monday, 1 August 2022",
-        "closure2" : "Saturday, 1 October 2022",
-        "closure3" : "Wednesday, 23 November 2022 (Limited Operations)",
-        "closure4" : "Thursday, 24 November 2022",
-        "closure5" : "Saturday, 24 December 2022",
-        "closure6" : "Saturday, 31 December 2022",
-        "closure7" : "Monday, 27 February 2023 - Monday, 13 March 2023",
-        "closure8" : "Tuesday, 28 March 2023 - Monday, 10 April 2023 (Limited Operations)",
-        "closure9" : "Saturday, 1 April 2023",
-        "closure10" : "Tuesday, 4 July 2023",
-        "closure11" : "Saturday, 30 September 2023",
-        "closure12" : "Monday, 16 October 2023 - Monday, 30 October 2023",
-        "closure13" : "Wednesday, 22 November 2023 (Limited Operations)"
+      "schedules": {
+        "ordinanceSchedule" : "Please call the temple directly for Ordinance Schedule information.",
+        "sessionSchedule" : "Please call the temple directly for Temple Session Schedule information.",
+        "closureSchedule" : {
+          "closure1" : "Monday, 18 July 2022 - Monday, 1 August 2022",
+          "closure2" : "Saturday, 1 October 2022",
+          "closure3" : "Wednesday, 23 November 2022 (Limited Operations)",
+          "closure4" : "Thursday, 24 November 2022",
+          "closure5" : "Saturday, 24 December 2022",
+          "closure6" : "Saturday, 31 December 2022",
+          "closure7" : "Monday, 27 February 2023 - Monday, 13 March 2023",
+          "closure8" : "Tuesday, 28 March 2023 - Monday, 10 April 2023 (Limited Operations)",
+          "closure9" : "Saturday, 1 April 2023",
+          "closure10" : "Tuesday, 4 July 2023",
+          "closure11" : "Saturday, 30 September 2023",
+          "closure12" : "Monday, 16 October 2023 - Monday, 30 October 2023",
+          "closure13" : "Wednesday, 22 November 2023 (Limited Operations)"
+        }
       },
       "templePicURL" : "https://assets.ldscdn.org/c3/df/c3df2226365172dea790d3949fcf1ef14f92bdbd/mesa_temple_reflection.jpg"
     },
@@ -155,8 +171,10 @@
         "zip" : "84095-8814",
         "country" : "United States"
       },
-      "phone" : "(1) 801-254-3003",
-      "email" : "email address not available",
+      "contact" : {
+        "phone" : "(1) 801-254-3003",
+        "email" : "email address not available"
+      },
       "services" : {
         "service1" : "Clothing rental available",
         "service2" : "No cafeteria available",
@@ -169,17 +187,19 @@
         "dedication" : "16 November 1981",
         "rededication": "20 May 2018"
       },
-      "ordinanceSchedule" : "Please call the temple directly for Ordinance Schedule information.",
-      "sessionSchedule" : "Please call the temple directly for Temple Session Schedule information.",
-      "templeClosureSchedule" : {
-        "closure1" : "Saturday, 1 October 2022",
-        "closure2" : "Monday, 31 October 2022 - Monday, 14 November 2022",
-        "closure3" : "Wednesday, 23 November 2022 (Limited Operations)",
-        "closure4" : "Thursday, 24 November 2022",
-        "closure5" : "Saturday, 24 December 2022",
-        "closure6" : "Saturday, 31 December 2022 (Limited Operations)",
-        "closure7" : "Monday, 8 May 2023 - Monday, 22 May 2023",
-        "closure8" : "Monday, 30 October 2023 - Monday, 13 November 2023"
+      "schedules": {
+        "ordinanceSchedule" : "Please call the temple directly for Ordinance Schedule information.",
+        "sessionSchedule" : "Please call the temple directly for Temple Session Schedule information.",
+        "closureSchedule" : {
+          "closure1": "Saturday, 1 October 2022",
+          "closure2": "Monday, 31 October 2022 - Monday, 14 November 2022",
+          "closure3": "Wednesday, 23 November 2022 (Limited Operations)",
+          "closure4": "Thursday, 24 November 2022",
+          "closure5": "Saturday, 24 December 2022",
+          "closure6": "Saturday, 31 December 2022 (Limited Operations)",
+          "closure7": "Monday, 8 May 2023 - Monday, 22 May 2023",
+          "closure8": "Monday, 30 October 2023 - Monday, 13 November 2023"
+        }
       },
       "templePicURL" : "https://assets.ldscdn.org/e5/54/e5546a3599c023ba83a4d751fb6fc196b5ab6ada/jordan_river_temple_exterior_images.jpeg"
     }
