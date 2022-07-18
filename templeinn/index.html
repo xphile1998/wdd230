@@ -36,13 +36,13 @@
         </picture>
     </div>
     <div class="banner">
-        <h1>Temple Inn & Suites</h1>
+        <h1>Welcome!</h1>
     </div>
     <div class="phone">
-        <h2>Phone: (702) 555-5555</h2>
+        <h2><a href="tel:7025555555" alt="Call us!">Phone: (702) 555-5555</a></h2>
     </div>
     <div class="email">
-        <h2>Email: reservations@tiaslasvegas.com</h2>
+        <h2><a href="email:reservations@tiaslasvegas.com" target="_blank">Email: reservations@tiaslasvegas.com</a></h2>
     </div>
     <div class="social">
         <a href="https://facebook.com" target="_blank">
@@ -73,11 +73,11 @@
             <span>X</span>
         </button>
         <ul id="primaryNav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Temple</a></li>
-            <li><a href="#">Reservations</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="./index.html">Home</a></li>
+            <li><a href="./temples.html">Temples</a></li>
+            <li><a href="./reservations.html">Reservations</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -104,7 +104,9 @@
                  width="450">
         </div>
         <div class="make-reservation">
-            <span>This is a MAKE A RESERVATION placeholder</span>m
+            <a href="./reservations.html" target="_blank">
+                <button class="resBtn" type="button" name="reservation">Make a reservation!</button>
+            </a>
         </div>
         <div class="temple-card">
             <div class="templePic">
@@ -121,8 +123,8 @@
                 </p>
             </div>
             <div class="contact">
-                <fieldset>
-                    <legend>Contact Information</legend>
+                <fieldset class="templeCard">
+                    <legend class="templeCardLeg">Contact Information</legend>
                     <p class="templePara">
                         Phone: (1) 702-452-5011<br>
                         Email: Email address not available
@@ -130,8 +132,8 @@
                 </fieldset>
             </div>
             <div class="services">
-                <fieldset>
-                    <legend>Services</legend>
+                <fieldset class="templeCard">
+                    <legend class="templeCardLeg">Services</legend>
                     <p class="templePara">
                         Clothing rental available<br>
                         No cafeteria available<br>
@@ -141,8 +143,8 @@
                 </fieldset>
             </div>
             <div class="schedules">
-                <fieldset>
-                    <legend>Schedules</legend>
+                <fieldset class="templeCard">
+                    <legend class="templeCardLeg">Schedules</legend>
                     <p class="templePara">
                         Ordinances: Please call the temple directly for
                         Ordinance Schedule information.
@@ -151,8 +153,8 @@
                         Sessions: Please call the temple directly for Temple
                         Session Schedule information.
                     </p>
-                    <fieldset>
-                        <legend>Closure Schedule</legend>
+                    <fieldset class="templeCard">
+                        <legend class="templeCardLeg">Closure Schedule</legend>
                         <ul>
                             <li class="templeLi">Monday, 11 July 2022 - Monday, 25 July 2022</li>
                             <li class="templeLi">Saturday, 1 October 2022</li>
@@ -165,8 +167,8 @@
                 </fieldset>
             </div>
             <div class="history">
-                <fieldset>
-                    <legend>Temple History</legend>
+                <fieldset class="templeCard">
+                    <legend class="templeCardLeg">Temple History</legend>
                     <p class="templePara">
                         Announced: 7 April 1984<br>
                         Groundbreaking: 30 November 1985<br>
@@ -176,23 +178,25 @@
             </div>
         </div>
         <div class="weather-app">
-            <div class="weather-title">Weather</div>
-            <div class="current"></div>
-            <div class="temp"></div>
-            <div class="conditions"></div>
-            <figure class="weatherIcon">
-                <img class="icon"
-                     src=""
-                     alt=""
-                     width="">
-                <figcaption></figcaption>
-            </figure>
-            <div class="forecast">
-                <span class="hilow-title">Today's Hi/Lo</span>
-                <div class="hi-low"></div>
+            <div class="weather-container">
+                <div class="weather-title">Weather</div>
+                <div class="current"></div>
+                <div class="temp"></div>
+                <div class="conditions"></div>
+                <figure class="weatherIcon">
+                    <img class="icon"
+                         src=""
+                         alt=""
+                         width="">
+                    <figcaption></figcaption>
+                </figure>
+                <div class="forecast">
+                    <span class="hilow-title">Today's Hi/Lo</span>
+                    <div class="hi-low"></div>
+                </div>
+                <div class="speed"></div>
+                <div class="chill"></div>
             </div>
-            <div class="speed"></div>
-            <div class="chill"></div>
         </div>
     </div>
 </main>

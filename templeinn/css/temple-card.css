@@ -70,7 +70,7 @@ body, */
     margin: 0;
 }
 
-legend {
+legend.templeCardLeg {
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -82,14 +82,14 @@ legend {
     font-style: italic;
 }
 
-fieldset {
+fieldset.templeCard {
     border: none;
 }
 
-fieldset :nth-child(0) {
+fieldset.templeCard :nth-child(0) {
     padding: 10px;
 }
 
-fieldset p {
+fieldset.templeCard p {
     padding: 10px;
 }

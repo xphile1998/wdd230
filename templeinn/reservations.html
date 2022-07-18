@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1"
+          name="viewport">
+    <title>Temple Inn & Suites - Reservations</title>
+    <meta content="Temple Inn & Suites - Reservations page" name="description">
+
+    <link href="images/tias_logo.ico" rel="shortcut icon">
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica&family=Montserrat&display=swap" rel="stylesheet">
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="css/weather.css" rel="stylesheet">
+    <link href="css/temple-card.css" rel="stylesheet">
+
+    <script defer src="js/main.js"></script>
+    <script defer src="js/weather-app.js"></script>
+    <script defer src="js/temples.js"></script>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <picture>
+            <img src="images/tias_logo.png"
+                 alt="TIAS Logo">
+        </picture>
+    </div>
+    <div class="banner">
+        <h1>Make a Reservation</h1>
+    </div>
+    <div class="phone">
+        <h2>Phone: (702) 555-5555</h2>
+    </div>
+    <div class="email">
+        <h2>Email: reservations@tiaslasvegas.com</h2>
+    </div>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img id="facebook"
+                 src="images/social-facebook-button-blue-icon.png"
+                 alt="Facebook Page">
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <img id="linkedin"
+                 src="images/linkedin-icon.png"
+                 alt="LinkedIn Page">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img id="instagram"
+                 src="images/48px-Instagram_icon.png"
+                 alt="Instagram Page">
+        </a>
+        <a href="https://gmail.com"
+           target="_blank">
+            <img alt="Gmail Page"
+                 id="gmail"
+                 src="images/Gmail_Logo_48px.png">
+        </a>
+    </div>
+    <nav class="nav">
+        <button id="hamburgerBtn">
+            <span>&#9776;</span>
+            <span>X</span>
+        </button>
+        <ul id="primaryNav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./temples.html">Temples</a></li>
+            <li class="active"><a href="./reservations.html">Reservations</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="res-container">
+        <h2 class="resH2">When would you like to stay with us?</h2>
+        <form method="get" action="./thankyou.html">
+            <fieldset class="resForm">
+                <legend class="resForm">Tell Us About You</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Phone* <input type="text" name="phone" placeholder="555-555-5555" required></label>
+                <label class="top">Email* <input type="text" name="email" placeholder="my_email@company.com" required></label>
+                <label class="top">What city are you visiting from? <input type="text" name="visitCity"></label>
+            </fieldset>
+            <fieldset class="resForm">
+                <legend class="resForm">Which Temple Are You Visiting?</legend>
+                <label for="dest">Your Destination* </label>
+                <select name="destination" id="dest" required>
+                    <option value="lasvegas">Las Vegas Nevada</option>
+                    <option value="columbia">Columbia South Carolina</option>
+                    <option value="gilbert">Gilbert Arizona</option>
+                    <option value="mesa">Mesa Arizona</option>
+                    <option value="jordanriver">Jordan River Utah</option>
+                </select>
+                <label for="count">Number of Guests* </label>
+                <select name="guests" id="count" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="more">More than 6? Please call us to make a reservation.</option>
+                </select>
+            </fieldset>
+            <fieldset class="resForm">
+                <legend class="resForm">Dates You Plan to Stay?</legend>
+                <label for="start">Check In Date* </label>
+                <input type="date" id="start" name="tripStart" required>
+                <label for="end">Check Out Date* </label>
+                <input type="date" id="end" name="tripEnd" required>
+            </fieldset>
+            <input type="hidden" name="dateTime" value="CurrentDateTime">
+            <input type="submit" value="Make Your Reservation!" class="resBtn">
+        </form>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="foot_logo">
+            <img id="ft_logo"
+                 src="images/tias_logo_200.webp"
+                 alt="TIAS Logo - Footer">
+        </div>
+        <div class="name_address">
+            <h2 id="foot_paragraph">Temple Inn & Suites - Las Vegas</h2>
+            <address id="address">
+                2271 N Green Valley Pkwy<br>
+                Henderson, NV 89014
+            </address>
+        </div>
+        <div class="location_info">
+            <p id="email">&#9993; reservations@tiaslasvegas.com</p>
+            <p id="phone">&#9742; 702-555-5555</p>
+            <p id="location_map">&#x1F4CD; <a href="https://www.google.com/maps/@36.0550587,-115.08538,18.25z"
+                                              target="_blank">Location Map</a></p>
+        </div>
+        <div class="author_info">
+            &copy; <span id="copyYear">2020</span> Temple Inn & Suites<br>
+            <span id="author">|o| Eron Whitefield |o|</span><br>
+            WDD 230 Final Project
+            <div id="lastModified"></div>
+            <p>Weather information provided by OpenWeatherMap.org</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

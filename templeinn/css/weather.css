@@ -1,21 +1,79 @@
-.location .city {
-    color: #fff;
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 5px;
+.weather-container {
+    max-width: 386px;
+    max-height: 386px;
+    font-family: var(--heading-font);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0 0;
+    grid-template-areas:
+        "title title"
+        "temp hi-low"
+        "weatherIcon conditions"
+        "speed chill";
+    align-items: center;
+    justify-items: center;
+    /*background-image: url("../../chamber/images/las_vegas_strip_400px.webp");*/
+    margin: 10px;
 }
 
-.location .date {
-    color: #fff;
-    font-size: 16px;
+.weather-title {
+    grid-area: title;
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    border: none;
+    margin: 10px;
 }
 
 .temp {
+    grid-area: temp;
     color: var(--secondary-color);
     font-size: 75px;
     font-weight: 900;
     margin: 30px 0;
-    text-shadow: 2px 8px rgba(0, 0, 0, 1.0);
+    text-shadow: 3px 5px rgba(120, 120, 120, 1.0);
+    border: none;
+    padding: 0 0 0 10px;
+}
+
+.forecast {
+    grid-area: hi-low;
+    /*background-color: rgba(241, 137, 0, .5);*/
+    border: none;
+    display: block;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 0;
+}
+
+div.hi-low {
+    border: none;
+}
+
+.weatherIcon {
+    grid-area: weatherIcon;
+    border: none;
+}
+
+.conditions {
+    grid-area: conditions;
+    border: none;
+    font-size: xx-large;
+}
+
+.speed {
+    grid-area: speed;
+    border: none;
+}
+
+.chill {
+    grid-area: chill;
+    border: none;
 }
 
 .weather {
@@ -25,11 +83,6 @@
     font-style: italic;
     margin-bottom: 15px;
     text-shadow: 0 3px rgba(0, 0, 0, 0.4);
-}
-
-.forecast {
-    display: block;
-    text-align: center;
 }
 
 .forecast .hilow-title {
