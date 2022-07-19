@@ -1,5 +1,5 @@
 const requestURL = 'json/temples.json';
-// const cards = document.querySelector('.cards');
+const cards = document.querySelector('.cards');
 
 fetch(requestURL)
     .then(function (response) {
@@ -80,5 +80,5 @@ function displayTemples(temple) {
     card.appendChild(history);
 
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('.cards').appendChild(card);
 }
