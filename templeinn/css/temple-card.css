@@ -12,6 +12,7 @@
     "schedules schedules services services"
     "schedules schedules history history";
     border: 1px solid #000;
+    background-color: #99b2dd;
 }
 
 .templePic {
@@ -92,4 +93,53 @@ fieldset.templeCard :nth-child(0) {
 
 fieldset.templeCard p {
     padding: 10px;
+}
+
+/*==========================================\\
+|| Temple cards coding                      ||
+\=\=========================================*/
+.tempCard {
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 203px 202px 1fr 1fr;
+    grid-template-rows: 5rem 11rem 0.5fr 0.5fr 0.5fr;
+    gap: 0 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "templePic templePic name1 name1"
+    "templePic templePic address address"
+    "schedules schedules contact contact"
+    "schedules schedules services services"
+    "schedules schedules history history";
+    border: 1px solid #000;
+    background-color: #99b2dd;
+}
+
+.cards img {
+    grid-area: templePic;
+    max-width: 400px;
+    max-height: 250px;
+}
+
+.cards .name {
+    grid-area: name1;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: var(--heading-font);
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.cards .address {
+    grid-area: address;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.cards .contact {
+    grid-area: contact;
 }
