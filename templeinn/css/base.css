@@ -280,6 +280,54 @@ div.thanks {
     background-color: var(--accent1-color);
 }
 
+.foot_logo {
+    grid-area: ftlogo;
+    margin: auto;
+    /*max-width: 150px;*/
+    max-height: 150px ;
+    padding: 15px;
+}
+
+.name_address {
+    grid-area: ftaddress;
+}
+
+.name_address h2 {
+    font-size: 1.25rem;
+}
+.name_address #address {
+    font-size: 1rem;
+}
+
+.map {
+    grid-area: map;
+    max-width: 100%;
+    max-height: 230px;
+    margin: auto;
+    padding: 10px;
+}
+
+.location_info {
+    grid-area: location;
+}
+
+#ft_email {
+    grid-area: ftemail;
+}
+
+#ft_phone {
+    grid-area: ftphone;
+}
+
+.author_info {
+    grid-area: author;
+    font-size: .75rem;
+}
+
+.author_info p {
+    font-size: .6rem;
+}
+
 /* 
 ||======================================================================||
 || ID Formats                                                           ||
@@ -287,11 +335,6 @@ div.thanks {
 */
 #head_logo {
     width: 100%;
-    height: auto;
-}
-
-#ft_logo {
-    width: 50px;
     height: auto;
 }
 
@@ -334,11 +377,6 @@ div.thanks {
 
 #tagline {
     font-size: 1.5rem;
-}
-
-#map {
-    max-width: 200px;
-    max-height: 200px;
 }
 
 /* 
