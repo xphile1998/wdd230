@@ -7,14 +7,22 @@ const api = {
     base: "https://api.openweathermap.org/data/2.5/"
 }
 const query = "Las Vegas, US"
+const lat = 36.175
+const lon = -115.1372
 
 getResults(query);
+getForecast(lat, lon);
 
 function getResults(query) {
     fetch(`${api.base}weather?q=${query}&appid=${api.key}&units=imperial`)
         .then(weather => {
             return weather.json();
         }).then(displayResults);
+}
+function getForecast(lat, lon) {
+    fetch(`${api.base}forecast?lat=${lat}&lon=${lon}&appid=${api.key}`)
+        .then(forecast => forecast.json())
+        .then(data => console.log(data));
 }
 
 function displayResults(weather) {

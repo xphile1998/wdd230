@@ -103,6 +103,10 @@ p {
     padding: 5px;
 }
 
+li {
+    font-family: var(--paragraph-font);
+}
+
 header {
     background-color: var(--primary-color);
     font-family: var(--heading-font);
@@ -330,6 +334,11 @@ div.thanks {
 
 #tagline {
     font-size: 1.5rem;
+}
+
+#map {
+    max-width: 200px;
+    max-height: 200px;
 }
 
 /* 
