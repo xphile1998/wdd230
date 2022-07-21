@@ -410,6 +410,12 @@ div.thanks {
     font-size: 1.5rem;
 }
 
+#reception, #fulltime {
+    background-color: var(--accent2-color);
+    border-radius: 5px;
+    padding: 2px;   
+}
+
 /* 
 ||======================================================================||
 || Form Formats                                                         ||
