@@ -328,6 +328,22 @@ div.thanks {
     font-size: .6rem;
 }
 
+.welcome {
+    grid-area: welcome;
+}
+
+.temple-card {
+    grid-area: templeCard;
+}
+
+.weather-app {
+    grid-area: weather;
+}
+
+/*.make-reservation {*/
+/*    display: none;*/
+/*}*/
+
 /* 
 ||======================================================================||
 || ID Formats                                                           ||
@@ -353,6 +369,21 @@ div.thanks {
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
     color: red;
+}
+
+#welcome_img {
+    width: 50%;
+    height: 50%;
+}
+
+.home-pic img {
+    grid-area: homePic;
+    justify-self: center;
+    max-height: 400px;
+}
+
+.home-pic {
+    justify-self: center;
 }
 
 #address {

@@ -23,10 +23,32 @@
     }
 
     .main-container {
-        display: inline-block;
-        
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(3, auto);
+        gap: 5px 5px;
+        grid-template-areas: 
+            "welcome welcome"
+            "templeCard templeCard"
+            "homePic weather";
     }
-
+    
+    .welcome {
+        display: inline;
+    }
+    
+   .resBtn {
+        position: fixed;
+        top: 40%;
+        right: 17%;
+   }
+    
+    .welcome img {
+        width: fit-content;
+        height: fit-content;
+        float: right;
+    }
+    
     .ft_container {
         font-size: 1rem;
         text-align: center;
